@@ -7,27 +7,31 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Editable brand palette — mirror in src/config/site.ts if changed.
+        // Editable brand palette — monochrome white & black luxury theme.
+        // Token names are kept (navy/accent/ink/line) so component classes
+        // stay stable; the VALUES define the theme.
         navy: {
-          DEFAULT: '#07111F',
-          900: '#07111F',
-          800: '#0B172A',
-          700: '#111C2E',
+          DEFAULT: '#FFFFFF', // page background (white)
+          900: '#FFFFFF', // page background
+          800: '#F5F5F4', // alternating sections (soft off-white)
+          700: '#FFFFFF', // cards (white; rely on border + shadow)
         },
         accent: {
-          DEFAULT: '#2563EB',
-          blue: '#2563EB',
-          cyan: '#38BDF8',
+          DEFAULT: '#0A0A0A', // primary (black)
+          blue: '#0A0A0A', // primary fills / buttons
+          cyan: '#171717', // fine highlights (near-black)
         },
+        gold: '#0A0A0A', // repurposed to black for accent rules/monogram
         ink: {
-          white: '#F8FAFC',
-          light: '#CBD5E1',
-          muted: '#94A3B8',
+          white: '#0A0A0A', // headings (near-black)
+          light: '#3F3F46', // body text (dark gray)
+          muted: '#71717A', // muted text (gray)
         },
-        line: '#1E293B',
+        line: '#E4E4E7', // hairline borders (light gray)
       },
       fontFamily: {
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'Georgia', 'serif'],
         arabic: ['var(--font-arabic)', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
@@ -49,7 +53,7 @@ const config: Config = {
       },
       backgroundImage: {
         'grid-faint':
-          'linear-gradient(to right, #1E293B 1px, transparent 1px), linear-gradient(to bottom, #1E293B 1px, transparent 1px)',
+          'linear-gradient(to right, #E4E4E7 1px, transparent 1px), linear-gradient(to bottom, #E4E4E7 1px, transparent 1px)',
       },
     },
   },

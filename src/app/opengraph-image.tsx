@@ -16,7 +16,7 @@ export default function OpengraphImage() {
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
-          background: 'linear-gradient(135deg, #07111F 0%, #0B172A 60%, #111C2E 100%)',
+          background: '#FFFFFF',
           padding: '80px',
           fontFamily: 'sans-serif',
         }}
@@ -27,33 +27,32 @@ export default function OpengraphImage() {
               width: 64,
               height: 64,
               borderRadius: 14,
-              border: '1px solid #1E293B',
-              background: '#0B172A',
+              background: '#0A0A0A',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#38BDF8',
-              fontSize: 30,
+              color: '#FFFFFF',
+              fontSize: 28,
               fontWeight: 800,
             }}
           >
             HS
           </div>
-          <div style={{ color: '#F8FAFC', fontSize: 34, fontWeight: 700 }}>HighSystem</div>
+          <div style={{ color: '#0A0A0A', fontSize: 34, fontWeight: 700 }}>HighSystem</div>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <div style={{ color: '#F8FAFC', fontSize: 66, fontWeight: 800, lineHeight: 1.1 }}>
+          <div style={{ color: '#0A0A0A', fontSize: 66, fontWeight: 800, lineHeight: 1.1 }}>
             We build growth systems
           </div>
-          <div style={{ color: '#38BDF8', fontSize: 66, fontWeight: 800, lineHeight: 1.1 }}>
+          <div style={{ color: '#525252', fontSize: 66, fontWeight: 800, lineHeight: 1.1 }}>
             for ambitious businesses.
           </div>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div style={{ color: '#94A3B8', fontSize: 26 }}>{siteConfig.domain}</div>
-          <div style={{ color: '#CBD5E1', fontSize: 24, fontWeight: 600 }}>Scale Through Systems.</div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E4E4E7', paddingTop: 28 }}>
+          <div style={{ color: '#71717A', fontSize: 26 }}>{siteConfig.domain}</div>
+          <div style={{ color: '#0A0A0A', fontSize: 24, fontWeight: 600 }}>Scale Through Systems.</div>
         </div>
       </div>
     ),

@@ -36,28 +36,29 @@ export default async function HomePage({
 function Hero() {
   const t = useTranslations('home.hero');
   const tc = useTranslations('cta');
+  const tag = useTranslations('meta')('tagline');
   return (
     <section className="relative overflow-hidden">
       <div
-        className="pointer-events-none absolute inset-0 -z-10 bg-grid-faint bg-[size:48px_48px] opacity-[0.05]"
+        className="pointer-events-none absolute inset-0 -z-10 bg-grid-faint bg-[size:48px_48px] opacity-60"
         aria-hidden="true"
       />
-      <div className="container-hs grid items-center gap-12 pb-16 pt-16 sm:pt-24 lg:grid-cols-2 lg:pb-24">
+      <div className="container-hs grid items-center gap-12 pb-20 pt-20 sm:pt-28 lg:grid-cols-[1.05fr_0.95fr] lg:pb-28">
         <div>
           <MotionReveal>
             <span className="eyebrow">
-              <span className="h-1.5 w-1.5 rounded-full bg-accent-cyan" />
+              <span className="rule-gold w-6" />
               {t('eyebrow')}
             </span>
           </MotionReveal>
           <MotionReveal delay={0.05}>
-            <h1 className="heading-xl mt-5">{t('title')}</h1>
+            <h1 className="heading-xl mt-6 text-gradient">{t('title')}</h1>
           </MotionReveal>
           <MotionReveal delay={0.1}>
-            <p className="lead mt-6 max-w-xl">{t('subtitle')}</p>
+            <p className="lead mt-7 max-w-xl">{t('subtitle')}</p>
           </MotionReveal>
           <MotionReveal delay={0.15}>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-9 flex flex-wrap gap-3">
               <Link href="/contact" className="btn-primary">
                 {tc('bookCall')}
                 <Icon name="arrow" size={16} className="rtl:-scale-x-100" />
@@ -66,6 +67,11 @@ function Hero() {
                 {tc('exploreProgram')}
               </Link>
             </div>
+          </MotionReveal>
+          <MotionReveal delay={0.2}>
+            <p className="mt-10 text-xs font-semibold uppercase tracking-[0.24em] text-ink-muted">
+              {tag}
+            </p>
           </MotionReveal>
         </div>
         <MotionReveal delay={0.2} className="order-first lg:order-last">
@@ -204,11 +210,9 @@ function FounderSection() {
   return (
     <section className="section">
       <div className="container-hs">
-        <MotionReveal className="mx-auto grid max-w-4xl items-center gap-8 rounded-3xl border border-line bg-navy-800/60 p-8 sm:p-12 md:grid-cols-[auto_1fr]">
-          <div className="mx-auto grid h-28 w-28 place-items-center rounded-2xl border border-line bg-gradient-to-br from-navy-700 to-navy-900 text-3xl font-extrabold">
-            <span className="bg-gradient-to-br from-ink-white to-accent-cyan bg-clip-text text-transparent">
-              A
-            </span>
+        <MotionReveal className="panel-ring mx-auto grid max-w-4xl items-center gap-10 p-8 sm:p-14 md:grid-cols-[auto_1fr]">
+          <div className="mx-auto grid h-32 w-32 place-items-center rounded-2xl border border-line bg-black font-display text-5xl text-white shadow-[0_24px_50px_-24px_rgba(10,10,10,0.5)]">
+            A
           </div>
           <div>
             <span className="eyebrow">

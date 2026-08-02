@@ -4,7 +4,7 @@ import { Icon } from './Icon';
 export function Eyebrow({ children }: { children: ReactNode }) {
   return (
     <span className="eyebrow">
-      <span className="h-1.5 w-1.5 rounded-full bg-accent-cyan" />
+      <span className="rule-gold w-6" />
       {children}
     </span>
   );
@@ -24,8 +24,9 @@ export function SectionHeading({
   return (
     <div className={`max-w-3xl ${align === 'center' ? 'mx-auto text-center' : ''}`}>
       {eyebrow ? <Eyebrow>{eyebrow}</Eyebrow> : null}
-      <h2 className="heading-lg mt-4">{title}</h2>
-      {subtitle ? <p className="lead mt-4">{subtitle}</p> : null}
+      <h2 className="heading-lg mt-5">{title}</h2>
+      <div className={`rule-gold mt-6 ${align === 'center' ? 'mx-auto' : ''}`} />
+      {subtitle ? <p className="lead mt-6">{subtitle}</p> : null}
     </div>
   );
 }

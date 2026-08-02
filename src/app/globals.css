@@ -4,6 +4,7 @@
 
 :root {
   --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
   --font-arabic: 'IBM Plex Sans Arabic', system-ui, sans-serif;
 }
 
@@ -24,16 +25,27 @@
   }
 
   h1, h2, h3, h4 {
-    @apply text-ink-white font-semibold tracking-tight;
+    @apply font-display text-ink-white tracking-tight;
+    font-weight: 500;
+    letter-spacing: -0.01em;
     text-wrap: balance;
   }
 
+  /* Arabic headings keep the elegant Arabic sans, not a Latin serif */
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2,
+  html[dir='rtl'] h3,
+  html[dir='rtl'] h4 {
+    font-family: var(--font-arabic);
+    font-weight: 600;
+  }
+
   ::selection {
-    @apply bg-accent-blue/30 text-ink-white;
+    @apply bg-black text-white;
   }
 
   :focus-visible {
-    @apply outline-none ring-2 ring-accent-cyan ring-offset-2 ring-offset-navy-900 rounded-sm;
+    @apply outline-none ring-2 ring-black ring-offset-2 ring-offset-white rounded-sm;
   }
 
   a {
@@ -47,47 +59,84 @@
   }
 
   .section {
-    @apply py-20 sm:py-28;
+    @apply py-24 sm:py-32;
   }
 
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-accent-cyan;
+    @apply inline-flex items-center gap-2.5 text-xs font-semibold uppercase tracking-[0.24em] text-ink-white;
+    font-family: var(--font-sans);
+  }
+  html[dir='rtl'] .eyebrow {
+    font-family: var(--font-arabic);
+    @apply tracking-normal;
   }
 
   .heading-xl {
-    @apply text-4xl leading-[1.08] sm:text-5xl lg:text-6xl;
+    @apply text-[2.65rem] leading-[1.05] sm:text-6xl lg:text-[4.25rem];
+    font-weight: 400;
   }
 
   .heading-lg {
-    @apply text-3xl leading-[1.12] sm:text-4xl lg:text-[2.75rem];
+    @apply text-4xl leading-[1.08] sm:text-5xl lg:text-[3.25rem];
+    font-weight: 400;
   }
 
   .heading-md {
-    @apply text-2xl leading-tight sm:text-3xl;
+    @apply text-2xl leading-tight sm:text-[2rem];
+    font-weight: 500;
   }
 
   .lead {
     @apply text-lg leading-relaxed text-ink-light sm:text-xl;
+    font-family: var(--font-sans);
+  }
+  html[dir='rtl'] .lead {
+    font-family: var(--font-arabic);
   }
 
+  /* Subtle dark gradient accent for a key line (on white) */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(120deg, #0A0A0A 0%, #262626 55%, #52525B 100%);
+  }
+
+  /* Cards — crisp white with hairline border + soft shadow */
   .card {
-    @apply rounded-2xl border border-line bg-navy-700/60 p-6 backdrop-blur-sm transition-colors;
+    @apply relative rounded-2xl border border-line bg-white p-7 transition-all duration-300;
+    box-shadow: 0 1px 2px rgba(10, 10, 10, 0.04);
   }
 
-  .card-hover {
-    @apply hover:border-accent-blue/50 hover:bg-navy-700;
+  .card-hover:hover {
+    @apply border-black/20 -translate-y-0.5;
+    box-shadow: 0 24px 48px -28px rgba(10, 10, 10, 0.28);
+  }
+
+  /* Elegant framed panel */
+  .panel-ring {
+    @apply relative rounded-3xl border border-line bg-white;
+    box-shadow: 0 1px 2px rgba(10, 10, 10, 0.04);
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-60;
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300 disabled:cursor-not-allowed disabled:opacity-60;
+    font-family: var(--font-sans);
+  }
+  html[dir='rtl'] .btn {
+    font-family: var(--font-arabic);
   }
 
   .btn-primary {
-    @apply btn bg-accent-blue text-white shadow-lg shadow-accent-blue/20 hover:bg-accent-blue/90 hover:shadow-accent-blue/30;
+    @apply btn bg-black text-white;
+    box-shadow: 0 14px 30px -14px rgba(10, 10, 10, 0.5);
+  }
+  .btn-primary:hover {
+    @apply bg-neutral-800;
+    transform: translateY(-1px);
+    box-shadow: 0 18px 40px -14px rgba(10, 10, 10, 0.45);
   }
 
   .btn-secondary {
-    @apply btn border border-line bg-transparent text-ink-white hover:border-accent-cyan/60 hover:bg-navy-700;
+    @apply btn border border-black/15 bg-white text-ink-white hover:border-black hover:bg-neutral-50;
   }
 
   .link-muted {
@@ -99,15 +148,21 @@
   }
 
   .field-input {
-    @apply w-full rounded-xl border border-line bg-navy-800 px-4 py-2.5 text-ink-white placeholder:text-ink-muted/60 transition-colors focus:border-accent-blue focus:outline-none;
+    @apply w-full rounded-xl border border-line bg-white px-4 py-2.5 text-ink-white placeholder:text-ink-muted/60 transition-colors focus:border-black focus:outline-none;
   }
 
   .field-error {
-    @apply mt-1 text-xs text-red-400;
+    @apply mt-1 text-xs text-red-600;
   }
 
   .divider-gradient {
-    @apply h-px w-full bg-gradient-to-r from-transparent via-line to-transparent;
+    @apply h-px w-full;
+    background: linear-gradient(90deg, transparent, #D4D4D8, transparent);
+  }
+
+  /* Thin black accent rule for premium separators */
+  .rule-gold {
+    @apply h-px w-16 bg-black;
   }
 }
 

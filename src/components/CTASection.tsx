@@ -16,19 +16,16 @@ export function CTASection({
   return (
     <section className="section">
       <div className="container-hs">
-        <MotionReveal className="relative overflow-hidden rounded-3xl border border-line bg-navy-800 px-6 py-16 sm:px-14 sm:py-20">
+        <MotionReveal className="panel-ring relative overflow-hidden px-6 py-20 sm:px-14 sm:py-24">
           <div
-            className="pointer-events-none absolute inset-0 opacity-40"
-            style={{
-              background:
-                'radial-gradient(600px circle at 20% 0%, rgba(37,99,235,0.18), transparent 60%), radial-gradient(500px circle at 90% 100%, rgba(56,189,248,0.12), transparent 55%)',
-            }}
+            className="pointer-events-none absolute inset-0 opacity-100 bg-grid-faint bg-[size:44px_44px]"
             aria-hidden="true"
           />
           <div className="relative mx-auto max-w-2xl text-center">
-            <h2 className="heading-lg">{title}</h2>
-            <p className="lead mt-5">{subtitle}</p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <div className="rule-gold mx-auto mb-8" />
+            <h2 className="heading-lg text-gradient">{title}</h2>
+            <p className="lead mt-6">{subtitle}</p>
+            <div className="mt-9 flex flex-wrap justify-center gap-3">
               <Link href="/contact" className="btn-primary">
                 {t('bookCall')}
                 <Icon name="arrow" size={16} className="rtl:-scale-x-100" />

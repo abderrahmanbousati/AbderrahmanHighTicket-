@@ -87,11 +87,9 @@ function Founder() {
   return (
     <section className="section">
       <div className="container-hs">
-        <MotionReveal className="mx-auto grid max-w-4xl items-center gap-8 rounded-3xl border border-line bg-navy-800/60 p-8 sm:p-12 md:grid-cols-[auto_1fr]">
-          <div className="mx-auto grid h-28 w-28 place-items-center rounded-2xl border border-line bg-gradient-to-br from-navy-700 to-navy-900 text-3xl font-extrabold">
-            <span className="bg-gradient-to-br from-ink-white to-accent-cyan bg-clip-text text-transparent">
-              A
-            </span>
+        <MotionReveal className="panel-ring mx-auto grid max-w-4xl items-center gap-10 p-8 sm:p-14 md:grid-cols-[auto_1fr]">
+          <div className="mx-auto grid h-32 w-32 place-items-center rounded-2xl border border-line bg-black font-display text-5xl text-white shadow-[0_24px_50px_-24px_rgba(10,10,10,0.5)]">
+            A
           </div>
           <div>
             <span className="eyebrow">

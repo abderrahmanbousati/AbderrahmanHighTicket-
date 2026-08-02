@@ -19,8 +19,8 @@ export default async function PaymentSuccessPage({
   return (
     <section className="section">
       <div className="container-hs flex min-h-[60vh] items-center justify-center">
-        <div className="mx-auto max-w-lg rounded-3xl border border-emerald-500/40 bg-emerald-500/[0.06] p-8 text-center sm:p-12">
-          <span className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-emerald-500/20 text-emerald-300">
+        <div className="mx-auto max-w-lg rounded-3xl border border-emerald-600/40 bg-emerald-50 p-8 text-center sm:p-12">
+          <span className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-emerald-600/15 text-emerald-700">
             <Icon name="check" size={28} />
           </span>
           <h1 className="heading-md mt-6">{t('title')}</h1>

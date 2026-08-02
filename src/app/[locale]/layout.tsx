@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations, getMessages, setRequestLocale } from 'next-intl/server';
 import { routing, isRtl, isKnownLocale, type Locale } from '@/i18n/routing';
-import { fontSans, fontArabic } from '../fonts';
+import { fontSans, fontDisplay, fontArabic } from '../fonts';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { buildMetadata, professionalServiceJsonLd } from '@/lib/seo';
@@ -55,7 +55,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={rtl ? 'rtl' : 'ltr'}
-      className={`${fontSans.variable} ${fontArabic.variable}`}
+      className={`${fontSans.variable} ${fontDisplay.variable} ${fontArabic.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-screen bg-navy-900">

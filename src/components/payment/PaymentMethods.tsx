@@ -65,7 +65,7 @@ export function PaymentMethods({ token, stripeEnabled, paypalEnabled }: Props) {
       <label className="flex items-start gap-3 text-sm text-ink-light">
         <input
           type="checkbox"
-          className="mt-1 h-4 w-4 flex-none accent-[#2563EB]"
+          className="mt-1 h-4 w-4 flex-none accent-black"
           checked={accepted}
           onChange={(e) => {
             setAccepted(e.target.checked);

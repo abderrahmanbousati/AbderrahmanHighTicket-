@@ -152,7 +152,7 @@ export function ContactForm() {
 
       <div>
         <label className="flex items-start gap-3 text-sm text-ink-light">
-          <input type="checkbox" className="mt-1 h-4 w-4 flex-none accent-[#2563EB]" {...register('consent')} />
+          <input type="checkbox" className="mt-1 h-4 w-4 flex-none accent-black" {...register('consent')} />
           <span>
             {tc('consent')}{' '}
             <Link href="/privacy" className="text-accent-cyan underline">
@@ -164,7 +164,7 @@ export function ContactForm() {
       </div>
 
       {status === 'error' && (
-        <p className="rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 text-sm text-red-300">
+        <p className="rounded-xl border border-red-500/40 bg-red-50 px-4 py-3 text-sm text-red-700">
           {tc('error')}
         </p>
       )}

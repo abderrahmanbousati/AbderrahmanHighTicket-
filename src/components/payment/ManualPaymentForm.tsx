@@ -48,10 +48,10 @@ export function ManualPaymentForm({ token }: { token: string }) {
 
   if (status === 'success') {
     return (
-      <div className="rounded-2xl border border-amber-500/40 bg-amber-500/10 p-6">
+      <div className="rounded-2xl border border-amber-500/50 bg-amber-50 p-6">
         <div className="flex items-center gap-3">
-          <Icon name="check" size={20} className="text-amber-300" />
-          <p className="text-sm text-amber-100">{t('success')}</p>
+          <Icon name="check" size={20} className="text-amber-700" />
+          <p className="text-sm text-amber-800">{t('success')}</p>
         </div>
       </div>
     );
@@ -108,13 +108,13 @@ export function ManualPaymentForm({ token }: { token: string }) {
       </div>
 
       <label className="flex items-start gap-3 text-sm text-ink-light">
-        <input name="acceptTerms" type="checkbox" required className="mt-1 h-4 w-4 flex-none accent-[#2563EB]" />
+        <input name="acceptTerms" type="checkbox" required className="mt-1 h-4 w-4 flex-none accent-black" />
         <span>{tterms('accept')}</span>
       </label>
 
       {errorKey && <p className="field-error">{t(errorKey)}</p>}
       {status === 'error' && (
-        <p className="rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 text-sm text-red-300">
+        <p className="rounded-xl border border-red-500/40 bg-red-50 px-4 py-3 text-sm text-red-700">
           {t('error')}
         </p>
       )}

@@ -26,10 +26,10 @@ export function HeroVisual() {
   return (
     <div className="relative mx-auto aspect-square w-full max-w-md">
       <div
-        className="pointer-events-none absolute inset-0 rounded-full opacity-60 blur-3xl"
+        className="pointer-events-none absolute inset-0 rounded-full opacity-70 blur-3xl"
         style={{
           background:
-            'radial-gradient(circle at 50% 45%, rgba(37,99,235,0.25), transparent 60%)',
+            'radial-gradient(circle at 50% 45%, rgba(10,10,10,0.06), transparent 60%)',
         }}
         aria-hidden="true"
       />
@@ -42,9 +42,9 @@ export function HeroVisual() {
             y1={center.y}
             x2={n.x}
             y2={n.y}
-            stroke="#2563EB"
+            stroke="#A1A1AA"
             strokeWidth={0.4}
-            strokeOpacity={0.5}
+            strokeOpacity={0.8}
             initial={reduce ? undefined : { pathLength: 0, opacity: 0 }}
             animate={{ pathLength: 1, opacity: 0.5 }}
             transition={{ duration: 0.8, delay: 0.2 + i * 0.1 }}
@@ -55,7 +55,7 @@ export function HeroVisual() {
         {!reduce && (
           <motion.circle
             r={0.9}
-            fill="#38BDF8"
+            fill="#0A0A0A"
             initial={{ opacity: 0 }}
             animate={{ opacity: [0, 1, 0] }}
             transition={{ duration: 3, repeat: Infinity, repeatDelay: 1 }}
@@ -78,11 +78,11 @@ export function HeroVisual() {
                 cx={n.x}
                 cy={n.y}
                 r={isCenter ? 6 : 4.4}
-                fill={isCenter ? '#2563EB' : '#0B172A'}
-                stroke={isCenter ? '#38BDF8' : '#1E293B'}
+                fill={isCenter ? '#0A0A0A' : '#FFFFFF'}
+                stroke={isCenter ? '#0A0A0A' : '#D4D4D8'}
                 strokeWidth={0.6}
               />
-              <circle cx={n.x} cy={n.y} r={isCenter ? 2 : 1.3} fill="#38BDF8" fillOpacity={0.9} />
+              <circle cx={n.x} cy={n.y} r={isCenter ? 2 : 1.3} fill={isCenter ? '#FFFFFF' : '#0A0A0A'} fillOpacity={0.9} />
             </motion.g>
           );
         })}
@@ -92,7 +92,7 @@ export function HeroVisual() {
       {nodes.map((n) => (
         <span
           key={`label-${n.key}`}
-          className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-md border border-line bg-navy-800/90 px-2 py-0.5 text-[10px] font-medium text-ink-light shadow-sm"
+          className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-md border border-line bg-white/95 px-2 py-0.5 text-[10px] font-medium text-ink-light shadow-sm"
           style={{ left: `${n.x}%`, top: `${n.y + (n.key === 'scaling' ? 0 : 11)}%` }}
         >
           {t(n.key)}

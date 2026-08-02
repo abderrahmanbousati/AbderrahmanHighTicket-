@@ -11,13 +11,11 @@ export function Logo({ className = '' }: { className?: string }) {
       className={`group inline-flex items-center gap-2.5 ${className}`}
       aria-label="HighSystem — home"
     >
-      <span className="grid h-9 w-9 place-items-center rounded-lg border border-line bg-navy-700 text-sm font-extrabold tracking-tight text-ink-white transition-colors group-hover:border-accent-blue/60">
-        <span className="bg-gradient-to-br from-ink-white to-accent-cyan bg-clip-text text-transparent">
-          HS
-        </span>
+      <span className="grid h-9 w-9 place-items-center rounded-lg bg-black text-sm font-extrabold tracking-tight text-white transition-transform group-hover:scale-105">
+        HS
       </span>
       <span className="text-lg font-bold tracking-tight text-ink-white">
-        High<span className="text-accent-cyan">System</span>
+        High<span className="text-ink-muted">System</span>
       </span>
     </Link>
   );

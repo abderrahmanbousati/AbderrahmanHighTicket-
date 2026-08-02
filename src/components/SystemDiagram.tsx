@@ -21,8 +21,8 @@ export function SystemDiagram() {
         <svg viewBox="0 0 400 300" className="h-full w-full">
           <defs>
             <radialGradient id="core" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#2563EB" stopOpacity="0.35" />
-              <stop offset="100%" stopColor="#2563EB" stopOpacity="0" />
+              <stop offset="0%" stopColor="#0A0A0A" stopOpacity="0.06" />
+              <stop offset="100%" stopColor="#0A0A0A" stopOpacity="0" />
             </radialGradient>
           </defs>
           <circle cx="200" cy="150" r="120" fill="url(#core)" />
@@ -38,7 +38,7 @@ export function SystemDiagram() {
                 y1="150"
                 x2={x}
                 y2={y}
-                stroke={active === i ? '#38BDF8' : '#1E293B'}
+                stroke={active === i ? '#0A0A0A' : '#D4D4D8'}
                 strokeWidth={active === i ? 1.6 : 1}
                 initial={reduce ? undefined : { pathLength: 0 }}
                 whileInView={{ pathLength: 1 }}
@@ -48,11 +48,11 @@ export function SystemDiagram() {
               />
             );
           })}
-          <circle cx="200" cy="150" r="30" fill="#0B172A" stroke="#2563EB" strokeWidth="1.5" />
-          <text x="200" y="147" textAnchor="middle" className="fill-ink-white" fontSize="11" fontWeight="700">
+          <circle cx="200" cy="150" r="30" fill="#0A0A0A" stroke="#0A0A0A" strokeWidth="1.5" />
+          <text x="200" y="147" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">
             High
           </text>
-          <text x="200" y="160" textAnchor="middle" className="fill-accent-cyan" fontSize="11" fontWeight="700">
+          <text x="200" y="160" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">
             System
           </text>
           {pillars.map((label, i) => {
@@ -76,8 +76,8 @@ export function SystemDiagram() {
                   cx={x}
                   cy={y}
                   r={isActive ? 26 : 24}
-                  fill={isActive ? '#2563EB' : '#111C2E'}
-                  stroke={isActive ? '#38BDF8' : '#1E293B'}
+                  fill={isActive ? '#0A0A0A' : '#FFFFFF'}
+                  stroke={isActive ? '#0A0A0A' : '#D4D4D8'}
                   strokeWidth="1.2"
                   className="transition-all"
                 />
@@ -87,7 +87,7 @@ export function SystemDiagram() {
                   textAnchor="middle"
                   fontSize="8.5"
                   fontWeight="600"
-                  className={isActive ? 'fill-white' : 'fill-ink-light'}
+                  fill={isActive ? '#FFFFFF' : '#3F3F46'}
                 >
                   {label}
                 </text>
