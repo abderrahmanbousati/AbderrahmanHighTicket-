@@ -1,21 +1,29 @@
-import { Space_Grotesk, IBM_Plex_Sans_Arabic } from 'next/font/google';
+import localFont from 'next/font/local';
 
-// Brand typeface (French / English) — Space Grotesk (per brand guide).
-// Used for both body and headings; heading weight is bumped via CSS.
-export const fontSans = Space_Grotesk({
-  subsets: ['latin'],
-  display: 'swap',
+// Self-hosted fonts (no build-time network fetch → reliable on any host).
+// Files live in src/app/fonts/files/. To swap a font, replace the woff2
+// files and update the paths below.
+
+// Brand typeface — Space Grotesk (variable, Latin). Body + headings.
+export const fontSans = localFont({
+  src: [{ path: './fonts/files/space-grotesk.woff2', weight: '300 700', style: 'normal' }],
   variable: '--font-sans',
-  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  fallback: ['system-ui', 'sans-serif'],
 });
 
-// Alias kept so existing `--font-display` references resolve to the brand font.
+// Alias so existing `--font-display` references resolve to the brand font.
 export const fontDisplay = fontSans;
 
-// Arabic (Space Grotesk has no Arabic glyphs).
-export const fontArabic = IBM_Plex_Sans_Arabic({
-  subsets: ['arabic'],
-  display: 'swap',
+// Arabic — IBM Plex Sans Arabic (static weights).
+export const fontArabic = localFont({
+  src: [
+    { path: './fonts/files/ibm-plex-arabic-400.woff2', weight: '400', style: 'normal' },
+    { path: './fonts/files/ibm-plex-arabic-500.woff2', weight: '500', style: 'normal' },
+    { path: './fonts/files/ibm-plex-arabic-600.woff2', weight: '600', style: 'normal' },
+    { path: './fonts/files/ibm-plex-arabic-700.woff2', weight: '700', style: 'normal' },
+  ],
   variable: '--font-arabic',
-  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  fallback: ['system-ui', 'sans-serif'],
 });

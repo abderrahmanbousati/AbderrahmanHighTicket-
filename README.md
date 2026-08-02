@@ -122,8 +122,9 @@ structure** — when you change a sentence, update it in all three.
 - **Colors:** `tailwind.config.ts` → `theme.extend.colors` (navy, accent,
   ink, line). These mirror the brand palette. A couple of raw hex values also
   live in `src/app/globals.css` and `src/app/opengraph-image.tsx`.
-- **Fonts:** `src/app/fonts.ts` (Latin: Plus Jakarta Sans, Arabic: IBM Plex
-  Sans Arabic).
+- **Fonts:** `src/app/fonts.ts` — self-hosted woff2 in `src/app/fonts/files/`
+  (Latin: Space Grotesk, Arabic: IBM Plex Sans Arabic). No build-time network
+  fetch, so the build is reliable on any host.
 - **Global styles / component classes:** `src/app/globals.css`.
 
 ### 📇 Contact info, social links, brand
