@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { siteConfig } from '@/config/site';
 
-export const alt = 'HighSystem — We build growth systems for ambitious businesses.';
+export const alt = 'HighSysteme — We build growth systems for ambitious businesses.';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -31,14 +31,24 @@ export default function OpengraphImage() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#FFFFFF',
-              fontSize: 28,
-              fontWeight: 800,
             }}
           >
-            HS
+            <img
+              width={38}
+              height={38}
+              src={
+                "data:image/svg+xml;utf8," +
+                encodeURIComponent(
+                  "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='white'><path d='M8 56 V18 L18 8 H22 V56 Z'/><path d='M56 56 V18 L46 8 H42 V56 Z'/><path d='M22 44 V34 L42 26 V36 Z'/></svg>"
+                )
+              }
+              alt=""
+            />
           </div>
-          <div style={{ color: '#0A0A0A', fontSize: 34, fontWeight: 700 }}>HighSystem</div>
+          <div style={{ display: 'flex', color: '#0A0A0A', fontSize: 34 }}>
+            <span style={{ fontWeight: 700 }}>HIGH</span>
+            <span style={{ fontWeight: 400, color: '#4B4B4B' }}>SYSTEME</span>
+          </div>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -52,7 +62,7 @@ export default function OpengraphImage() {
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E4E4E7', paddingTop: 28 }}>
           <div style={{ color: '#71717A', fontSize: 26 }}>{siteConfig.domain}</div>
-          <div style={{ color: '#0A0A0A', fontSize: 24, fontWeight: 600 }}>Scale Through Systems.</div>
+          <div style={{ color: '#0A0A0A', fontSize: 24, fontWeight: 600 }}>Build. Scale. Dominate.</div>
         </div>
       </div>
     ),

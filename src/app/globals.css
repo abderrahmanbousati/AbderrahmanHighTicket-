@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
-  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-display: var(--font-sans);
   --font-arabic: 'IBM Plex Sans Arabic', system-ui, sans-serif;
 }
 
@@ -25,19 +25,20 @@
   }
 
   h1, h2, h3, h4 {
-    @apply font-display text-ink-white tracking-tight;
-    font-weight: 500;
-    letter-spacing: -0.01em;
+    @apply text-ink-white;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    letter-spacing: -0.02em;
     text-wrap: balance;
   }
 
-  /* Arabic headings keep the elegant Arabic sans, not a Latin serif */
+  /* Arabic headings use the Arabic sans */
   html[dir='rtl'] h1,
   html[dir='rtl'] h2,
   html[dir='rtl'] h3,
   html[dir='rtl'] h4 {
     font-family: var(--font-arabic);
-    font-weight: 600;
+    font-weight: 700;
   }
 
   ::selection {
@@ -72,18 +73,21 @@
   }
 
   .heading-xl {
-    @apply text-[2.65rem] leading-[1.05] sm:text-6xl lg:text-[4.25rem];
-    font-weight: 400;
+    @apply text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.25rem];
+    font-weight: 700;
+    letter-spacing: -0.03em;
   }
 
   .heading-lg {
-    @apply text-4xl leading-[1.08] sm:text-5xl lg:text-[3.25rem];
-    font-weight: 400;
+    @apply text-4xl leading-[1.07] sm:text-5xl lg:text-[3.25rem];
+    font-weight: 700;
+    letter-spacing: -0.025em;
   }
 
   .heading-md {
     @apply text-2xl leading-tight sm:text-[2rem];
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 
   .lead {

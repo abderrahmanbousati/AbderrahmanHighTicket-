@@ -11,9 +11,9 @@
  */
 
 export const siteConfig = {
-  name: 'HighSystem',
-  legalName: 'HighSystem', // TODO: replace with registered legal entity name before launch
-  tagline: 'Scale Through Systems.',
+  name: 'HighSysteme',
+  legalName: 'HighSysteme', // TODO: replace with registered legal entity name before launch
+  tagline: 'Build. Scale. Dominate.',
   domain: 'highsysteme.com',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://highsysteme.com',
 

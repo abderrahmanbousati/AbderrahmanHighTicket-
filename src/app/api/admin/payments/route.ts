@@ -18,7 +18,7 @@ export const runtime = 'nodejs';
  *   curl -X POST /api/admin/payments \
  *     -H "Authorization: Bearer $ADMIN_API_TOKEN" \
  *     -H "Content-Type: application/json" \
- *     -d '{"action":"create","ref":"INV-001","client":"Acme","offer":"HighSystem 90 — Deposit","amountMinor":3000000,"currency":"MAD","type":"deposit"}'
+ *     -d '{"action":"create","ref":"INV-001","client":"Acme","offer":"HighSysteme 90 — Deposit","amountMinor":3000000,"currency":"MAD","type":"deposit"}'
  */
 
 function authorized(req: Request): boolean {

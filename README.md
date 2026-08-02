@@ -1,9 +1,9 @@
-# HighSystem — Website
+# HighSysteme — Website
 
-> **We build growth systems for ambitious businesses.** — _Scale Through Systems._
+> **We build growth systems for ambitious businesses.** — _Build. Scale. Dominate._
 
 A premium, multilingual (French / English / Arabic, with full RTL) marketing
-and business-transformation website for **HighSystem**, plus a complete,
+and business-transformation website for **HighSysteme**, plus a complete,
 opt-in **payment architecture** (Stripe, PayPal, Moroccan bank transfer,
 Cash Plus, manual verification, invoices, and a client-portal scaffold).
 
@@ -63,7 +63,7 @@ src/
     [locale]/                 # All localized pages (App Router)
       layout.tsx              # <html lang/dir>, header/footer, fonts
       page.tsx                # Home
-      highsystem-90/          # HighSystem 90 program page
+      highsystem-90/          # HighSysteme 90 program page
       solutions/  method/  industries/  about/
       insights/               # Blog list + [slug] article pages
       contact/                # Strategy-call qualification form
@@ -244,7 +244,7 @@ curl -X POST "$SITE/api/admin/payments" \
     "action": "create",
     "ref": "INV-001",
     "client": "Acme SARL",
-    "offer": "HighSystem 90 — Initial deposit",
+    "offer": "HighSysteme 90 — Initial deposit",
     "amountMinor": 3000000,      // 30,000.00 in minor units (centimes)
     "currency": "MAD",
     "type": "deposit"            // full | deposit | first_monthly | three_month_subscription | custom_installment

@@ -19,19 +19,19 @@ const config: Config = {
         accent: {
           DEFAULT: '#0A0A0A', // primary (black)
           blue: '#0A0A0A', // primary fills / buttons
-          cyan: '#171717', // fine highlights (near-black)
+          cyan: '#1A1A1A', // fine highlights (near-black)
         },
         gold: '#0A0A0A', // repurposed to black for accent rules/monogram
         ink: {
           white: '#0A0A0A', // headings (near-black)
-          light: '#3F3F46', // body text (dark gray)
-          muted: '#71717A', // muted text (gray)
+          light: '#3A3A3A', // body text (dark gray)
+          muted: '#4B4B4B', // muted text (brand gray)
         },
-        line: '#E4E4E7', // hairline borders (light gray)
+        line: '#EAEAEA', // hairline borders (brand light gray)
       },
       fontFamily: {
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
-        display: ['var(--font-display)', 'Georgia', 'serif'],
+        display: ['var(--font-sans)', 'system-ui', 'sans-serif'],
         arabic: ['var(--font-arabic)', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
@@ -53,7 +53,7 @@ const config: Config = {
       },
       backgroundImage: {
         'grid-faint':
-          'linear-gradient(to right, #E4E4E7 1px, transparent 1px), linear-gradient(to bottom, #E4E4E7 1px, transparent 1px)',
+          'linear-gradient(to right, #EAEAEA 1px, transparent 1px), linear-gradient(to bottom, #EAEAEA 1px, transparent 1px)',
       },
     },
   },

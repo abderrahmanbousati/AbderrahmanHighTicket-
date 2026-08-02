@@ -1,21 +1,42 @@
 import { Link } from '@/i18n/routing';
 
 /**
- * Temporary text-based logo + "HS" monogram.
- * Replace with an SVG file later by swapping the markup below.
+ * HighSysteme brand mark — geometric "H" monogram.
+ * The H = two vertical bars (system / structure) + an upward crossbar
+ * (growth / elevation), with chamfered outer-top corners.
+ * Uses currentColor so it inherits the surrounding text color.
+ * To replace with a supplied asset, swap the <svg> below for an <img>.
  */
+export function HMark({ className = '' }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 64 64"
+      className={className}
+      fill="currentColor"
+      role="img"
+      aria-label="HighSysteme"
+    >
+      {/* left bar, top-left chamfer */}
+      <path d="M8 56 V18 L18 8 H22 V56 Z" />
+      {/* right bar, top-right chamfer */}
+      <path d="M56 56 V18 L46 8 H42 V56 Z" />
+      {/* crossbar, rising to the right (growth) */}
+      <path d="M22 44 V34 L42 26 V36 Z" />
+    </svg>
+  );
+}
+
 export function Logo({ className = '' }: { className?: string }) {
   return (
     <Link
       href="/"
       className={`group inline-flex items-center gap-2.5 ${className}`}
-      aria-label="HighSystem — home"
+      aria-label="HighSysteme — home"
     >
-      <span className="grid h-9 w-9 place-items-center rounded-lg bg-black text-sm font-extrabold tracking-tight text-white transition-transform group-hover:scale-105">
-        HS
-      </span>
-      <span className="text-lg font-bold tracking-tight text-ink-white">
-        High<span className="text-ink-muted">System</span>
+      <HMark className="h-8 w-8 text-ink-white transition-transform group-hover:scale-105" />
+      <span className="text-lg tracking-[0.02em] text-ink-white">
+        <span className="font-bold">HIGH</span>
+        <span className="font-light text-ink-muted">SYSTEME</span>
       </span>
     </Link>
   );

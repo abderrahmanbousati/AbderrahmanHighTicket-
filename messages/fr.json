@@ -1,13 +1,13 @@
 {
   "meta": {
-    "brand": "HighSystem",
-    "tagline": "Scale Through Systems.",
+    "brand": "HighSysteme",
+    "tagline": "Build. Scale. Dominate.",
     "coreMessage": "Nous construisons des systèmes de croissance pour les entreprises ambitieuses.",
     "secondaryMessage": "Nous transformons votre acquisition, votre processus commercial et votre présence digitale en un système structuré, mesurable et évolutif."
   },
   "nav": {
     "home": "Accueil",
-    "program": "HighSystem 90",
+    "program": "HighSysteme 90",
     "solutions": "Solutions",
     "method": "Méthode",
     "industries": "Secteurs",
@@ -20,7 +20,7 @@
   },
   "cta": {
     "bookCall": "Réserver un appel stratégique",
-    "exploreProgram": "Découvrir HighSystem 90",
+    "exploreProgram": "Découvrir HighSysteme 90",
     "viewProgram": "Voir le programme complet",
     "learnMore": "En savoir plus",
     "getStarted": "Commencer",
@@ -33,8 +33,8 @@
     "phase": "Phase",
     "minutesRead": "min de lecture",
     "allCategories": "Toutes les catégories",
-    "before": "Avant HighSystem",
-    "after": "Avec HighSystem",
+    "before": "Avant HighSysteme",
+    "after": "Avec HighSysteme",
     "whoFor": "Pour qui",
     "whoNotFor": "Pas pour qui",
     "deliverables": "Livrables",
@@ -43,55 +43,55 @@
   },
   "seo": {
     "home": {
-      "title": "HighSystem — Systèmes de croissance pour entreprises ambitieuses",
-      "description": "HighSystem construit des systèmes d’acquisition client, de vente et de présence digitale pour les entreprises établies, à travers une transformation structurée de 90 jours."
+      "title": "HighSysteme — Systèmes de croissance pour entreprises ambitieuses",
+      "description": "HighSysteme construit des systèmes d’acquisition client, de vente et de présence digitale pour les entreprises établies, à travers une transformation structurée de 90 jours."
     },
     "program": {
-      "title": "HighSystem 90 — Transformation de croissance en 90 jours",
+      "title": "HighSysteme 90 — Transformation de croissance en 90 jours",
       "description": "Un programme de 90 jours pour auditer, reconstruire, lancer et optimiser votre système de croissance digitale. Diagnostiquer, construire, lancer, optimiser."
     },
     "solutions": {
-      "title": "Solutions — Acquérir, convertir, mesurer, scaler | HighSystem",
+      "title": "Solutions — Acquérir, convertir, mesurer, scaler | HighSysteme",
       "description": "Des solutions organisées par résultat business : acquisition, conversion, autorité, mesure et scalabilité. Un système intégré, pas des services isolés."
     },
     "method": {
-      "title": "Méthode — Le framework SYSTEM | HighSystem",
-      "description": "Le framework SYSTEM de HighSystem : Stratégie, marché, conception du système, trafic et confiance, exécution et évaluation, mesure et multiplication."
+      "title": "Méthode — Le framework SYSTEM | HighSysteme",
+      "description": "Le framework SYSTEM de HighSysteme : Stratégie, marché, conception du système, trafic et confiance, exécution et évaluation, mesure et multiplication."
     },
     "industries": {
-      "title": "Secteurs — Immobilier, hôtellerie, automobile, cliniques | HighSystem",
+      "title": "Secteurs — Immobilier, hôtellerie, automobile, cliniques | HighSysteme",
       "description": "Des systèmes de croissance conçus pour l’immobilier, l’hôtellerie, l’automobile, la location de véhicules, les cliniques privées et les entreprises de services à forte valeur."
     },
     "about": {
-      "title": "À propos — Notre vision de la croissance par les systèmes | HighSystem",
-      "description": "HighSystem est une société de transformation et de croissance qui aide les entreprises établies à organiser marketing, acquisition et vente en systèmes mesurables."
+      "title": "À propos — Notre vision de la croissance par les systèmes | HighSysteme",
+      "description": "HighSysteme est une société de transformation et de croissance qui aide les entreprises établies à organiser marketing, acquisition et vente en systèmes mesurables."
     },
     "insights": {
-      "title": "Analyses — Croissance, acquisition et systèmes de vente | HighSystem",
+      "title": "Analyses — Croissance, acquisition et systèmes de vente | HighSysteme",
       "description": "Des analyses concrètes sur la stratégie de croissance, l’acquisition client, les systèmes de vente et la transformation digitale des entreprises établies."
     },
     "contact": {
-      "title": "Appel stratégique — Candidature | HighSystem",
-      "description": "Réservez un appel stratégique avec HighSystem. Nous travaillons avec un nombre limité d’entreprises qualifiées pour construire leur système de croissance."
+      "title": "Appel stratégique — Candidature | HighSysteme",
+      "description": "Réservez un appel stratégique avec HighSysteme. Nous travaillons avec un nombre limité d’entreprises qualifiées pour construire leur système de croissance."
     },
     "payment": {
-      "title": "Paiement sécurisé | HighSystem",
-      "description": "Espace de paiement sécurisé pour les clients HighSystem approuvés."
+      "title": "Paiement sécurisé | HighSysteme",
+      "description": "Espace de paiement sécurisé pour les clients HighSysteme approuvés."
     },
     "privacy": {
-      "title": "Politique de confidentialité | HighSystem",
-      "description": "Comment HighSystem collecte, utilise et protège vos données."
+      "title": "Politique de confidentialité | HighSysteme",
+      "description": "Comment HighSysteme collecte, utilise et protège vos données."
     },
     "terms": {
-      "title": "Conditions générales | HighSystem",
-      "description": "Conditions générales d’utilisation du site et des services HighSystem."
+      "title": "Conditions générales | HighSysteme",
+      "description": "Conditions générales d’utilisation du site et des services HighSysteme."
     }
   },
   "home": {
     "hero": {
       "eyebrow": "Société de transformation & de croissance",
       "title": "Transformez votre entreprise en un système de croissance.",
-      "subtitle": "HighSystem construit vos systèmes d’acquisition, de vente, de présence digitale et de suivi pour les entreprises établies — à travers une transformation structurée de 90 jours.",
+      "subtitle": "HighSysteme construit vos systèmes d’acquisition, de vente, de présence digitale et de suivi pour les entreprises établies — à travers une transformation structurée de 90 jours.",
       "diagram": {
         "acquisition": "Acquisition",
         "conversion": "Conversion",
@@ -136,7 +136,7 @@
       ]
     },
     "program": {
-      "eyebrow": "HighSystem 90™",
+      "eyebrow": "HighSysteme 90™",
       "title": "Une transformation en 90 jours, en quatre phases.",
       "subtitle": "Un programme minimum de 90 jours pour auditer, reconstruire, lancer et optimiser votre système de croissance digitale.",
       "phases": [
@@ -170,7 +170,7 @@
       "subtitle": "Nous concevons des systèmes de croissance adaptés à la réalité de chaque marché."
     },
     "why": {
-      "eyebrow": "Pourquoi HighSystem",
+      "eyebrow": "Pourquoi HighSysteme",
       "title": "Un partenaire stratégique, pas un prestataire de services.",
       "items": [
         { "title": "Un système intégré", "text": "Tout est relié : acquisition, conversion, suivi et mesure fonctionnent ensemble." },
@@ -185,7 +185,7 @@
     "founder": {
       "eyebrow": "Fondateur",
       "name": "Abderahman",
-      "role": "Fondateur de HighSystem",
+      "role": "Fondateur de HighSysteme",
       "bio": "Abderahman est un stratège de croissance qui aide les entreprises à organiser leur marketing, leur acquisition, leurs ventes et leur exécution digitale en systèmes mesurables. Son approche part d’un principe simple : la croissance durable vient de la structure, pas de l’improvisation.",
       "proofNote": "[Espace éditable — ajoutez ici parcours, références ou preuves une fois disponibles.]"
     },
@@ -210,7 +210,7 @@
   },
   "program": {
     "hero": {
-      "eyebrow": "HighSystem 90™",
+      "eyebrow": "HighSysteme 90™",
       "title": "Une transformation complète de votre croissance, en 90 jours.",
       "subtitle": "Un programme minimum de 90 jours pour auditer, reconstruire, lancer et optimiser votre système de croissance digitale — de la stratégie à l’exécution mesurable."
     },
@@ -315,7 +315,7 @@
     },
     "cta": {
       "title": "Prêt à construire votre système ?",
-      "subtitle": "Réservez un appel stratégique pour évaluer si HighSystem 90 correspond à votre situation."
+      "subtitle": "Réservez un appel stratégique pour évaluer si HighSysteme 90 correspond à votre situation."
     }
   },
   "solutions": {
@@ -470,7 +470,7 @@
     "hero": {
       "eyebrow": "À propos",
       "title": "Nous construisons des systèmes, pas des promesses.",
-      "subtitle": "HighSystem est une société de transformation et de croissance qui aide les entreprises établies à structurer leur acquisition, leurs ventes et leur présence digitale."
+      "subtitle": "HighSysteme est une société de transformation et de croissance qui aide les entreprises établies à structurer leur acquisition, leurs ventes et leur présence digitale."
     },
     "vision": {
       "title": "Vision",
@@ -534,8 +534,8 @@
     "hero": {
       "eyebrow": "Appel stratégique",
       "title": "Réservez votre appel stratégique.",
-      "subtitle": "Cet appel sert à évaluer votre situation et à déterminer si un système HighSystem correspond à vos objectifs.",
-      "limitedNote": "HighSystem travaille avec un nombre limité d’entreprises qualifiées. Ce formulaire nous aide à évaluer l’adéquation avant l’appel."
+      "subtitle": "Cet appel sert à évaluer votre situation et à déterminer si un système HighSysteme correspond à vos objectifs.",
+      "limitedNote": "HighSysteme travaille avec un nombre limité d’entreprises qualifiées. Ce formulaire nous aide à évaluer l’adéquation avant l’appel."
     },
     "form": {
       "sectionYou": "Vous & votre entreprise",
@@ -600,7 +600,7 @@
       "minLength": "Réponse trop courte.",
       "consent": "Votre consentement est requis pour continuer."
     },
-    "consent": "J’accepte que HighSystem me contacte au sujet de ma demande et traite mes données conformément à la politique de confidentialité.",
+    "consent": "J’accepte que HighSysteme me contacte au sujet de ma demande et traite mes données conformément à la politique de confidentialité.",
     "error": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement.",
     "success": {
       "title": "Merci — votre candidature a bien été reçue.",
@@ -608,7 +608,7 @@
       "next": "Prochaines étapes",
       "steps": [
         "Nous examinons votre candidature.",
-        "Nous évaluons l’adéquation avec HighSystem 90.",
+        "Nous évaluons l’adéquation avec HighSysteme 90.",
         "Si c’est pertinent, nous planifions votre appel stratégique."
       ]
     }
@@ -616,12 +616,12 @@
   "payment": {
     "hero": {
       "eyebrow": "Paiement sécurisé",
-      "title": "Espace de paiement HighSystem",
+      "title": "Espace de paiement HighSysteme",
       "subtitle": "Cet espace est réservé aux clients approuvés. Le montant et la devise proviennent de votre proposition validée."
     },
     "gate": {
       "title": "Lien de paiement privé requis",
-      "text": "Les paiements HighSystem s’effectuent uniquement après qualification et acceptation de la proposition. Vous recevrez un lien de paiement privé et sécurisé de la part de notre équipe.",
+      "text": "Les paiements HighSysteme s’effectuent uniquement après qualification et acceptation de la proposition. Vous recevrez un lien de paiement privé et sécurisé de la part de notre équipe.",
       "cta": "Réserver un appel stratégique",
       "support": "Vous avez déjà une proposition ? Contactez-nous pour recevoir votre lien de paiement sécurisé."
     },
@@ -719,11 +719,11 @@
     },
     "legal": {
       "title": "Conditions de paiement",
-      "intro": "Ces conditions s’appliquent aux paiements des services HighSystem. Elles complètent le contrat signé, qui prévaut en cas de divergence.",
+      "intro": "Ces conditions s’appliquent aux paiements des services HighSysteme. Elles complètent le contrat signé, qui prévaut en cas de divergence.",
       "note": "[À compléter par le propriétaire et un professionnel qualifié avant le lancement — voir le README.]",
       "items": [
         { "title": "Échéancier de paiement", "text": "Le calendrier de paiement est défini dans la proposition et le contrat signés." },
-        { "title": "Durée d’engagement minimale", "text": "HighSystem 90 repose sur un engagement minimum de trois mois, tel que précisé dans le contrat." },
+        { "title": "Durée d’engagement minimale", "text": "HighSysteme 90 repose sur un engagement minimum de trois mois, tel que précisé dans le contrat." },
         { "title": "Acomptes", "text": "Un acompte peut être requis avant le démarrage. Les modalités figurent dans la proposition." },
         { "title": "Retards de paiement", "text": "Les paiements en retard peuvent entraîner une suspension des services, selon les termes du contrat." },
         { "title": "Conditions de remboursement", "text": "Les conditions de remboursement éventuelles sont définies dans le contrat signé." },
@@ -759,13 +759,13 @@
     "rights": "Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales",
-    "disclaimer": "HighSystem est une société de transformation et de croissance. Nous ne garantissons pas de résultats financiers ; les résultats dépendent de nombreux facteurs propres à chaque entreprise."
+    "disclaimer": "HighSysteme est une société de transformation et de croissance. Nous ne garantissons pas de résultats financiers ; les résultats dépendent de nombreux facteurs propres à chaque entreprise."
   },
   "legal": {
     "privacy": {
       "title": "Politique de confidentialité",
       "updated": "Dernière mise à jour",
-      "intro": "Cette politique explique comment HighSystem collecte, utilise et protège vos données. Elle doit être revue et complétée par un professionnel qualifié avant le lancement.",
+      "intro": "Cette politique explique comment HighSysteme collecte, utilise et protège vos données. Elle doit être revue et complétée par un professionnel qualifié avant le lancement.",
       "sections": [
         { "title": "Données que nous collectons", "text": "Nous collectons les informations que vous fournissez via nos formulaires (nom, entreprise, coordonnées, informations business) ainsi que des données techniques anonymes de navigation." },
         { "title": "Utilisation des données", "text": "Nous utilisons vos données pour évaluer votre demande, vous contacter, fournir nos services et améliorer notre site. Nous ne vendons pas vos données." },
@@ -779,14 +779,14 @@
     "terms": {
       "title": "Conditions générales",
       "updated": "Dernière mise à jour",
-      "intro": "Ces conditions régissent l’utilisation du site et des services HighSystem. Elles doivent être revues et complétées par un professionnel qualifié avant le lancement.",
+      "intro": "Ces conditions régissent l’utilisation du site et des services HighSysteme. Elles doivent être revues et complétées par un professionnel qualifié avant le lancement.",
       "sections": [
-        { "title": "Objet", "text": "Ces conditions encadrent l’accès au site et la prestation des services de conseil et de transformation de HighSystem." },
+        { "title": "Objet", "text": "Ces conditions encadrent l’accès au site et la prestation des services de conseil et de transformation de HighSysteme." },
         { "title": "Services", "text": "Les services sont définis dans chaque proposition et contrat signés. Le contrat prévaut en cas de divergence avec le site." },
-        { "title": "Aucune garantie de résultat", "text": "HighSystem s’engage sur une méthodologie et une exécution sérieuses, mais ne garantit pas de résultats financiers spécifiques." },
+        { "title": "Aucune garantie de résultat", "text": "HighSysteme s’engage sur une méthodologie et une exécution sérieuses, mais ne garantit pas de résultats financiers spécifiques." },
         { "title": "Paiements", "text": "Les modalités de paiement figurent dans la proposition, le contrat et les conditions de paiement du site." },
-        { "title": "Propriété intellectuelle", "text": "Le contenu du site appartient à HighSystem. Les livrables clients sont régis par le contrat." },
-        { "title": "Responsabilité", "text": "Dans les limites permises par la loi, la responsabilité de HighSystem est limitée aux montants effectivement versés pour les services concernés." },
+        { "title": "Propriété intellectuelle", "text": "Le contenu du site appartient à HighSysteme. Les livrables clients sont régis par le contrat." },
+        { "title": "Responsabilité", "text": "Dans les limites permises par la loi, la responsabilité de HighSysteme est limitée aux montants effectivement versés pour les services concernés." },
         { "title": "Droit applicable", "text": "[À compléter — indiquez le droit applicable et la juridiction compétente.]" }
       ]
     }

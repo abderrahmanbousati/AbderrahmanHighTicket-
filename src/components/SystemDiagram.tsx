@@ -49,12 +49,11 @@ export function SystemDiagram() {
             );
           })}
           <circle cx="200" cy="150" r="30" fill="#0A0A0A" stroke="#0A0A0A" strokeWidth="1.5" />
-          <text x="200" y="147" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">
-            High
-          </text>
-          <text x="200" y="160" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">
-            System
-          </text>
+          <g transform="translate(184 134) scale(0.5)" fill="#FFFFFF">
+            <path d="M8 56 V18 L18 8 H22 V56 Z" />
+            <path d="M56 56 V18 L46 8 H42 V56 Z" />
+            <path d="M22 44 V34 L42 26 V36 Z" />
+          </g>
           {pillars.map((label, i) => {
             const angle = (i / pillars.length) * Math.PI * 2 - Math.PI / 2;
             const x = 200 + Math.cos(angle) * 110;

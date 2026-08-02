@@ -1,6 +1,6 @@
 /**
  * =====================================================================
- * INDUSTRIES — priority markets HighSystem serves.
+ * INDUSTRIES — priority markets HighSysteme serves.
  * =====================================================================
  * Structural data only (slug + icon key + WhatsApp/CTA anchors).
  * All human-readable copy lives in messages/{locale}.json under

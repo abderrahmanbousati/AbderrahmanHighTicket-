@@ -1,22 +1,18 @@
-import { Plus_Jakarta_Sans, Fraunces, IBM_Plex_Sans_Arabic } from 'next/font/google';
+import { Space_Grotesk, IBM_Plex_Sans_Arabic } from 'next/font/google';
 
-// Body / UI (French / English)
-export const fontSans = Plus_Jakarta_Sans({
+// Brand typeface (French / English) — Space Grotesk (per brand guide).
+// Used for both body and headings; heading weight is bumped via CSS.
+export const fontSans = Space_Grotesk({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-sans',
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['400', '500', '600', '700'],
 });
 
-// Display serif for large headings (Latin) — adds an editorial, luxury feel.
-export const fontDisplay = Fraunces({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-display',
-  style: ['normal', 'italic'],
-});
+// Alias kept so existing `--font-display` references resolve to the brand font.
+export const fontDisplay = fontSans;
 
-// Arabic
+// Arabic (Space Grotesk has no Arabic glyphs).
 export const fontArabic = IBM_Plex_Sans_Arabic({
   subsets: ['arabic'],
   display: 'swap',

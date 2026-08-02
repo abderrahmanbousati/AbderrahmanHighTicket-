@@ -33,7 +33,7 @@ export function HeroVisual() {
         }}
         aria-hidden="true"
       />
-      <svg viewBox="0 0 100 100" className="relative h-full w-full" role="img" aria-label="HighSystem — interconnected growth system">
+      <svg viewBox="0 0 100 100" className="relative h-full w-full" role="img" aria-label="HighSysteme — interconnected growth system">
         {/* connecting lines */}
         {outer.map((n, i) => (
           <motion.line
