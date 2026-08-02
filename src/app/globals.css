@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-arabic: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-navy-900 text-ink-light antialiased;
+    font-feature-settings: 'ss01';
+  }
+
+  /* RTL: Arabic font stack */
+  html[dir='rtl'] body {
+    font-family: var(--font-arabic);
+  }
+
+  h1, h2, h3, h4 {
+    @apply text-ink-white font-semibold tracking-tight;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    @apply bg-accent-blue/30 text-ink-white;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent-cyan ring-offset-2 ring-offset-navy-900 rounded-sm;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+}
+
+@layer components {
+  .container-hs {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8;
+  }
+
+  .section {
+    @apply py-20 sm:py-28;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-accent-cyan;
+  }
+
+  .heading-xl {
+    @apply text-4xl leading-[1.08] sm:text-5xl lg:text-6xl;
+  }
+
+  .heading-lg {
+    @apply text-3xl leading-[1.12] sm:text-4xl lg:text-[2.75rem];
+  }
+
+  .heading-md {
+    @apply text-2xl leading-tight sm:text-3xl;
+  }
+
+  .lead {
+    @apply text-lg leading-relaxed text-ink-light sm:text-xl;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-navy-700/60 p-6 backdrop-blur-sm transition-colors;
+  }
+
+  .card-hover {
+    @apply hover:border-accent-blue/50 hover:bg-navy-700;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent-blue text-white shadow-lg shadow-accent-blue/20 hover:bg-accent-blue/90 hover:shadow-accent-blue/30;
+  }
+
+  .btn-secondary {
+    @apply btn border border-line bg-transparent text-ink-white hover:border-accent-cyan/60 hover:bg-navy-700;
+  }
+
+  .link-muted {
+    @apply text-ink-muted hover:text-ink-white;
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-sm font-medium text-ink-light;
+  }
+
+  .field-input {
+    @apply w-full rounded-xl border border-line bg-navy-800 px-4 py-2.5 text-ink-white placeholder:text-ink-muted/60 transition-colors focus:border-accent-blue focus:outline-none;
+  }
+
+  .field-error {
+    @apply mt-1 text-xs text-red-400;
+  }
+
+  .divider-gradient {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-line to-transparent;
+  }
+}
+
+/* Respect reduced motion globally */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

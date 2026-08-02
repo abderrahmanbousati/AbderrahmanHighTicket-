@@ -1,0 +1,246 @@
+import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/routing';
+import { Icon } from '@/components/Icon';
+import { HeroVisual } from '@/components/HeroVisual';
+import { SystemDiagram } from '@/components/SystemDiagram';
+import { ProcessTimeline } from '@/components/ProcessTimeline';
+import { IndustryGrid } from '@/components/IndustryGrid';
+import { CTASection } from '@/components/CTASection';
+import { MotionReveal } from '@/components/MotionReveal';
+import { SectionHeading, CheckList } from '@/components/ui';
+
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return (
+    <>
+      <Hero />
+      <Problem />
+      <Transformation />
+      <ProgramPreview />
+      <SystemSection />
+      <IndustriesSection />
+      <WhySection />
+      <FounderSection />
+      <CaseStudiesSection />
+      <FinalCta />
+    </>
+  );
+}
+
+function Hero() {
+  const t = useTranslations('home.hero');
+  const tc = useTranslations('cta');
+  return (
+    <section className="relative overflow-hidden">
+      <div
+        className="pointer-events-none absolute inset-0 -z-10 bg-grid-faint bg-[size:48px_48px] opacity-[0.05]"
+        aria-hidden="true"
+      />
+      <div className="container-hs grid items-center gap-12 pb-16 pt-16 sm:pt-24 lg:grid-cols-2 lg:pb-24">
+        <div>
+          <MotionReveal>
+            <span className="eyebrow">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent-cyan" />
+              {t('eyebrow')}
+            </span>
+          </MotionReveal>
+          <MotionReveal delay={0.05}>
+            <h1 className="heading-xl mt-5">{t('title')}</h1>
+          </MotionReveal>
+          <MotionReveal delay={0.1}>
+            <p className="lead mt-6 max-w-xl">{t('subtitle')}</p>
+          </MotionReveal>
+          <MotionReveal delay={0.15}>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link href="/contact" className="btn-primary">
+                {tc('bookCall')}
+                <Icon name="arrow" size={16} className="rtl:-scale-x-100" />
+              </Link>
+              <Link href="/highsystem-90" className="btn-secondary">
+                {tc('exploreProgram')}
+              </Link>
+            </div>
+          </MotionReveal>
+        </div>
+        <MotionReveal delay={0.2} className="order-first lg:order-last">
+          <HeroVisual />
+        </MotionReveal>
+      </div>
+    </section>
+  );
+}
+
+function Problem() {
+  const t = useTranslations('home.problem');
+  const items: string[] = t.raw('items');
+  return (
+    <section className="section border-t border-line/60">
+      <div className="container-hs">
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('intro')} />
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {items.map((item, i) => (
+            <MotionReveal key={item} delay={(i % 3) * 0.05} className="card flex items-start gap-3">
+              <span className="mt-1 h-2 w-2 flex-none rounded-full bg-accent-blue" />
+              <p className="text-ink-light">{item}</p>
+            </MotionReveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Transformation() {
+  const t = useTranslations('home.transformation');
+  const tc = useTranslations('common');
+  const before: string[] = t.raw('beforeItems');
+  const after: string[] = t.raw('afterItems');
+  return (
+    <section className="section bg-navy-800/40">
+      <div className="container-hs">
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} align="center" />
+        <div className="mx-auto mt-12 grid max-w-4xl gap-5 md:grid-cols-2">
+          <MotionReveal className="rounded-2xl border border-line bg-navy-900/60 p-7">
+            <h3 className="text-lg font-semibold text-ink-muted">{tc('before')}</h3>
+            <ul className="mt-5 space-y-3">
+              {before.map((item) => (
+                <li key={item} className="flex items-center gap-3 text-ink-light">
+                  <Icon name="close" size={16} className="flex-none text-ink-muted" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </MotionReveal>
+          <MotionReveal delay={0.08} className="rounded-2xl border border-accent-blue/40 bg-accent-blue/[0.06] p-7">
+            <h3 className="text-lg font-semibold text-ink-white">{tc('after')}</h3>
+            <CheckList items={after} className="mt-5" />
+          </MotionReveal>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ProgramPreview() {
+  const t = useTranslations('home.program');
+  const tc = useTranslations('cta');
+  return (
+    <section className="section">
+      <div className="container-hs">
+        <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
+          <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
+          <Link href="/highsystem-90" className="btn-secondary flex-none">
+            {tc('viewProgram')}
+            <Icon name="arrow" size={16} className="rtl:-scale-x-100" />
+          </Link>
+        </div>
+        <div className="mt-12">
+          <ProcessTimeline namespace="home.program" />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function SystemSection() {
+  const t = useTranslations('home.systemDiagram');
+  return (
+    <section className="section bg-navy-800/40">
+      <div className="container-hs">
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} align="center" />
+        <div className="mt-14">
+          <SystemDiagram />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function IndustriesSection() {
+  const t = useTranslations('home.industries');
+  return (
+    <section className="section">
+      <div className="container-hs">
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
+        <div className="mt-12">
+          <IndustryGrid />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function WhySection() {
+  const t = useTranslations('home.why');
+  const items: { title: string; text: string }[] = t.raw('items');
+  return (
+    <section className="section bg-navy-800/40">
+      <div className="container-hs">
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} align="center" />
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {items.map((item, i) => (
+            <MotionReveal key={item.title} delay={(i % 3) * 0.05} className="card">
+              <span className="grid h-10 w-10 place-items-center rounded-lg border border-line bg-navy-800 text-accent-cyan">
+                <Icon name="spark" size={18} />
+              </span>
+              <h3 className="mt-4 text-base font-semibold text-ink-white">{item.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-muted">{item.text}</p>
+            </MotionReveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FounderSection() {
+  const t = useTranslations('home.founder');
+  return (
+    <section className="section">
+      <div className="container-hs">
+        <MotionReveal className="mx-auto grid max-w-4xl items-center gap-8 rounded-3xl border border-line bg-navy-800/60 p-8 sm:p-12 md:grid-cols-[auto_1fr]">
+          <div className="mx-auto grid h-28 w-28 place-items-center rounded-2xl border border-line bg-gradient-to-br from-navy-700 to-navy-900 text-3xl font-extrabold">
+            <span className="bg-gradient-to-br from-ink-white to-accent-cyan bg-clip-text text-transparent">
+              A
+            </span>
+          </div>
+          <div>
+            <span className="eyebrow">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent-cyan" />
+              {t('eyebrow')}
+            </span>
+            <h2 className="heading-md mt-3">{t('name')}</h2>
+            <p className="text-sm font-medium text-accent-cyan">{t('role')}</p>
+            <p className="mt-4 leading-relaxed text-ink-light">{t('bio')}</p>
+            <p className="mt-3 text-xs italic text-ink-muted">{t('proofNote')}</p>
+          </div>
+        </MotionReveal>
+      </div>
+    </section>
+  );
+}
+
+function CaseStudiesSection() {
+  const t = useTranslations('home.caseStudies');
+  return (
+    <section className="section bg-navy-800/40">
+      <div className="container-hs">
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} align="center" />
+        <MotionReveal className="mx-auto mt-10 max-w-3xl rounded-2xl border border-dashed border-line bg-navy-900/40 p-8 text-center">
+          <p className="text-ink-muted">{t('emptyState')}</p>
+        </MotionReveal>
+      </div>
+    </section>
+  );
+}
+
+function FinalCta() {
+  const t = useTranslations('home.finalCta');
+  return <CTASection title={t('title')} subtitle={t('subtitle')} />;
+}

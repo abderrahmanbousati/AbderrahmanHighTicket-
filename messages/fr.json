@@ -1,0 +1,799 @@
+{
+  "meta": {
+    "brand": "HighSystem",
+    "tagline": "Scale Through Systems.",
+    "coreMessage": "Nous construisons des systèmes de croissance pour les entreprises ambitieuses.",
+    "secondaryMessage": "Nous transformons votre acquisition, votre processus commercial et votre présence digitale en un système structuré, mesurable et évolutif."
+  },
+  "nav": {
+    "home": "Accueil",
+    "program": "HighSystem 90",
+    "solutions": "Solutions",
+    "method": "Méthode",
+    "industries": "Secteurs",
+    "about": "À propos",
+    "insights": "Analyses",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue"
+  },
+  "cta": {
+    "bookCall": "Réserver un appel stratégique",
+    "exploreProgram": "Découvrir HighSystem 90",
+    "viewProgram": "Voir le programme complet",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "talkToUs": "Parlons de votre système"
+  },
+  "common": {
+    "readMore": "Lire l’article",
+    "backToInsights": "Retour aux analyses",
+    "backHome": "Retour à l’accueil",
+    "phase": "Phase",
+    "minutesRead": "min de lecture",
+    "allCategories": "Toutes les catégories",
+    "before": "Avant HighSystem",
+    "after": "Avec HighSystem",
+    "whoFor": "Pour qui",
+    "whoNotFor": "Pas pour qui",
+    "deliverables": "Livrables",
+    "faq": "Questions fréquentes",
+    "learnMoreAbout": "En savoir plus sur"
+  },
+  "seo": {
+    "home": {
+      "title": "HighSystem — Systèmes de croissance pour entreprises ambitieuses",
+      "description": "HighSystem construit des systèmes d’acquisition client, de vente et de présence digitale pour les entreprises établies, à travers une transformation structurée de 90 jours."
+    },
+    "program": {
+      "title": "HighSystem 90 — Transformation de croissance en 90 jours",
+      "description": "Un programme de 90 jours pour auditer, reconstruire, lancer et optimiser votre système de croissance digitale. Diagnostiquer, construire, lancer, optimiser."
+    },
+    "solutions": {
+      "title": "Solutions — Acquérir, convertir, mesurer, scaler | HighSystem",
+      "description": "Des solutions organisées par résultat business : acquisition, conversion, autorité, mesure et scalabilité. Un système intégré, pas des services isolés."
+    },
+    "method": {
+      "title": "Méthode — Le framework SYSTEM | HighSystem",
+      "description": "Le framework SYSTEM de HighSystem : Stratégie, marché, conception du système, trafic et confiance, exécution et évaluation, mesure et multiplication."
+    },
+    "industries": {
+      "title": "Secteurs — Immobilier, hôtellerie, automobile, cliniques | HighSystem",
+      "description": "Des systèmes de croissance conçus pour l’immobilier, l’hôtellerie, l’automobile, la location de véhicules, les cliniques privées et les entreprises de services à forte valeur."
+    },
+    "about": {
+      "title": "À propos — Notre vision de la croissance par les systèmes | HighSystem",
+      "description": "HighSystem est une société de transformation et de croissance qui aide les entreprises établies à organiser marketing, acquisition et vente en systèmes mesurables."
+    },
+    "insights": {
+      "title": "Analyses — Croissance, acquisition et systèmes de vente | HighSystem",
+      "description": "Des analyses concrètes sur la stratégie de croissance, l’acquisition client, les systèmes de vente et la transformation digitale des entreprises établies."
+    },
+    "contact": {
+      "title": "Appel stratégique — Candidature | HighSystem",
+      "description": "Réservez un appel stratégique avec HighSystem. Nous travaillons avec un nombre limité d’entreprises qualifiées pour construire leur système de croissance."
+    },
+    "payment": {
+      "title": "Paiement sécurisé | HighSystem",
+      "description": "Espace de paiement sécurisé pour les clients HighSystem approuvés."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité | HighSystem",
+      "description": "Comment HighSystem collecte, utilise et protège vos données."
+    },
+    "terms": {
+      "title": "Conditions générales | HighSystem",
+      "description": "Conditions générales d’utilisation du site et des services HighSystem."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Société de transformation & de croissance",
+      "title": "Transformez votre entreprise en un système de croissance.",
+      "subtitle": "HighSystem construit vos systèmes d’acquisition, de vente, de présence digitale et de suivi pour les entreprises établies — à travers une transformation structurée de 90 jours.",
+      "diagram": {
+        "acquisition": "Acquisition",
+        "conversion": "Conversion",
+        "crm": "CRM",
+        "content": "Contenu",
+        "data": "Données",
+        "scaling": "Scaling"
+      }
+    },
+    "problem": {
+      "eyebrow": "Le vrai problème",
+      "title": "Votre entreprise ne manque peut-être pas d’efforts. Elle manque peut-être de système.",
+      "intro": "Les entreprises établies échouent rarement par manque de travail. Elles plafonnent parce que leurs efforts ne sont pas reliés.",
+      "items": [
+        "Les actions marketing sont déconnectées les unes des autres.",
+        "Les leads ne sont pas suivis correctement.",
+        "Les ventes dépendent trop du bouche-à-oreille.",
+        "Aucun suivi de performance fiable n’existe.",
+        "L’entreprise publie du contenu sans stratégie claire.",
+        "L’équipe a des outils mais aucun processus intégré.",
+        "La croissance dépend trop du fondateur."
+      ]
+    },
+    "transformation": {
+      "eyebrow": "Le changement",
+      "title": "D’un ensemble d’efforts à un système unique.",
+      "beforeItems": [
+        "Campagnes déconnectées",
+        "Contenu aléatoire",
+        "Leads perdus",
+        "Aucune visibilité",
+        "Chiffres flous",
+        "Dépendance au fondateur"
+      ],
+      "afterItems": [
+        "Acquisition structurée",
+        "Offre claire",
+        "CRM et suivi",
+        "Performance mesurable",
+        "Processus de vente documenté",
+        "Base de croissance scalable"
+      ]
+    },
+    "program": {
+      "eyebrow": "HighSystem 90™",
+      "title": "Une transformation en 90 jours, en quatre phases.",
+      "subtitle": "Un programme minimum de 90 jours pour auditer, reconstruire, lancer et optimiser votre système de croissance digitale.",
+      "phases": [
+        {
+          "name": "Diagnostiquer",
+          "items": ["Audit business", "Analyse de marché", "Revue du positionnement", "Évaluation de l’offre", "Analyse du tunnel et des ventes"]
+        },
+        {
+          "name": "Construire",
+          "items": ["Stratégie de croissance", "Infrastructure d’acquisition", "Landing pages", "Structure CRM", "Système de tracking", "Processus de vente"]
+        },
+        {
+          "name": "Lancer",
+          "items": ["Lancement des campagnes", "Déploiement du contenu", "Génération de leads", "Mise en place du suivi", "Support commercial"]
+        },
+        {
+          "name": "Optimiser",
+          "items": ["Analyse des données", "Amélioration de la conversion", "Optimisation des campagnes", "Amélioration des process d’équipe", "Feuille de route de scaling"]
+        }
+      ]
+    },
+    "systemDiagram": {
+      "eyebrow": "Un système intégré",
+      "title": "Sept piliers, un seul système.",
+      "subtitle": "Chaque pilier alimente le suivant. C’est cette connexion qui produit une croissance composée.",
+      "pillars": ["Stratégie", "Positionnement", "Acquisition", "Conversion", "Fidélisation", "Mesure", "Scaling"]
+    },
+    "industries": {
+      "eyebrow": "Secteurs",
+      "title": "Conçu pour les entreprises établies.",
+      "subtitle": "Nous concevons des systèmes de croissance adaptés à la réalité de chaque marché."
+    },
+    "why": {
+      "eyebrow": "Pourquoi HighSystem",
+      "title": "Un partenaire stratégique, pas un prestataire de services.",
+      "items": [
+        { "title": "Un système intégré", "text": "Tout est relié : acquisition, conversion, suivi et mesure fonctionnent ensemble." },
+        { "title": "La stratégie avant l’exécution", "text": "Nous définissons la direction avant de dépenser un dirham en publicité." },
+        { "title": "Des décisions basées sur les données", "text": "Vos décisions s’appuient sur des chiffres fiables, pas sur des intuitions." },
+        { "title": "Une implication au niveau fondateur", "text": "Votre système est conçu avec l’attention d’un partenaire, pas délégué à un stagiaire." },
+        { "title": "Une capacité client limitée", "text": "Nous travaillons avec un nombre restreint d’entreprises pour garantir la qualité." },
+        { "title": "Une base de croissance durable", "text": "Nous construisons un actif qui vous appartient, pas une dépendance." },
+        { "title": "Communication et reporting clairs", "text": "Vous savez toujours ce qui est fait, pourquoi, et avec quels résultats." }
+      ]
+    },
+    "founder": {
+      "eyebrow": "Fondateur",
+      "name": "Abderahman",
+      "role": "Fondateur de HighSystem",
+      "bio": "Abderahman est un stratège de croissance qui aide les entreprises à organiser leur marketing, leur acquisition, leurs ventes et leur exécution digitale en systèmes mesurables. Son approche part d’un principe simple : la croissance durable vient de la structure, pas de l’improvisation.",
+      "proofNote": "[Espace éditable — ajoutez ici parcours, références ou preuves une fois disponibles.]"
+    },
+    "caseStudies": {
+      "eyebrow": "Résultats",
+      "title": "Des études de cas, bientôt.",
+      "subtitle": "Nous documentons chaque transformation avec des données réelles. Aucune étude de cas n’est publiée tant qu’elle n’est pas vérifiée.",
+      "emptyState": "Les études de cas seront ajoutées ici après validation client. Chaque cas présentera : secteur, défi initial, système mis en place, durée, résultat principal et témoignage.",
+      "labels": {
+        "industry": "Secteur",
+        "challenge": "Défi initial",
+        "system": "Système mis en place",
+        "duration": "Durée",
+        "result": "Résultat principal",
+        "confidential": "Client confidentiel"
+      }
+    },
+    "finalCta": {
+      "title": "Votre prochaine étape n’est peut-être pas une nouvelle campagne. C’est un meilleur système.",
+      "subtitle": "Réservez un appel stratégique pour évaluer votre situation actuelle et identifier le système dont votre croissance a besoin."
+    }
+  },
+  "program": {
+    "hero": {
+      "eyebrow": "HighSystem 90™",
+      "title": "Une transformation complète de votre croissance, en 90 jours.",
+      "subtitle": "Un programme minimum de 90 jours pour auditer, reconstruire, lancer et optimiser votre système de croissance digitale — de la stratégie à l’exécution mesurable."
+    },
+    "whoFor": {
+      "title": "Pour qui",
+      "items": [
+        "Entreprises établies avec une activité, une équipe et un chiffre d’affaires.",
+        "Dirigeants prêts à structurer leur croissance plutôt qu’à multiplier les tactiques.",
+        "Entreprises qui veulent réduire leur dépendance au fondateur et au bouche-à-oreille.",
+        "Décideurs prêts à s’impliquer et à investir dans un système durable."
+      ]
+    },
+    "whoNotFor": {
+      "title": "Pas pour qui",
+      "items": [
+        "Débutants ou freelances sans activité établie.",
+        "Entreprises cherchant un service isolé (une seule campagne, un simple site).",
+        "Structures à très petit budget cherchant une solution la moins chère possible.",
+        "Ceux qui attendent des résultats garantis sans implication ni processus."
+      ]
+    },
+    "problems": {
+      "title": "Les problèmes que nous adressons",
+      "items": [
+        "Acquisition imprévisible et dépendante d’un seul canal.",
+        "Leads non qualifiés et mal suivis.",
+        "Absence de processus de vente documenté.",
+        "Manque de visibilité sur les chiffres réels.",
+        "Contenu produit sans stratégie ni cohérence.",
+        "Croissance bloquée par la dépendance au fondateur."
+      ]
+    },
+    "methodology": {
+      "title": "La méthodologie en quatre phases",
+      "subtitle": "Chaque phase produit des livrables concrets et prépare la suivante."
+    },
+    "deliverables": {
+      "title": "Ce que vous obtenez",
+      "items": [
+        "Audit business et marketing complet",
+        "Positionnement et offre optimisés",
+        "Infrastructure d’acquisition (landing pages, campagnes)",
+        "Structure CRM et système de suivi des leads",
+        "Processus de vente et scripts documentés",
+        "Système de suivi WhatsApp",
+        "Tableaux de bord et reporting de performance",
+        "Feuille de route de scaling"
+      ]
+    },
+    "responsibilities": {
+      "title": "Vos responsabilités en tant que client",
+      "items": [
+        "Donner accès aux informations et outils nécessaires.",
+        "Participer aux points stratégiques planifiés.",
+        "Fournir les retours et validations dans les délais.",
+        "Mobiliser votre équipe pour l’exécution opérationnelle.",
+        "Assurer le budget média convenu, séparé des honoraires."
+      ]
+    },
+    "communication": {
+      "title": "Structure de communication",
+      "items": [
+        "Un point de contact dédié.",
+        "Des points stratégiques réguliers planifiés à l’avance.",
+        "Un canal de communication clair pour les échanges opérationnels.",
+        "Une documentation partagée et accessible."
+      ]
+    },
+    "reporting": {
+      "title": "Processus de reporting",
+      "items": [
+        "Des tableaux de bord de performance mis à jour régulièrement.",
+        "Des indicateurs clairs, liés à vos objectifs business.",
+        "Des revues périodiques avec analyse et recommandations.",
+        "Une transparence totale sur ce qui fonctionne et ce qui doit changer."
+      ]
+    },
+    "qualification": {
+      "title": "Critères de qualification",
+      "intro": "Nous travaillons avec un nombre limité d’entreprises qualifiées. Avant de commencer, nous évaluons :",
+      "items": [
+        "La maturité et la stabilité de votre activité.",
+        "Votre capacité à investir dans un système, pas seulement une campagne.",
+        "L’alignement entre vos objectifs et notre approche.",
+        "Votre disponibilité pour vous impliquer dans le processus."
+      ]
+    },
+    "investment": {
+      "title": "Investissement",
+      "text": "Nous n’affichons pas de prix public fixe. L’investissement dépend de la complexité, du périmètre et de la situation actuelle de l’entreprise. Il est défini après l’appel stratégique, en fonction de vos objectifs.",
+      "note": "L’appel stratégique permet de déterminer le périmètre exact et la structure d’investissement adaptée."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        { "q": "Pourquoi minimum 90 jours ?", "a": "Construire un système d’acquisition, de conversion et de mesure fiable demande du temps : diagnostiquer, construire, lancer, puis optimiser sur des données réelles. 90 jours est le minimum pour produire un cycle complet et mesurable." },
+        { "q": "Garantissez-vous des résultats ?", "a": "Non. Nous garantissons une méthodologie rigoureuse, une exécution sérieuse et une transparence totale. Les résultats dépendent aussi de votre marché, de votre offre et de votre implication." },
+        { "q": "Remplacez-vous notre équipe ?", "a": "Non. Nous construisons le système et travaillons avec votre équipe. L’objectif est de vous rendre autonome, pas dépendant." },
+        { "q": "Le budget publicitaire est-il inclus ?", "a": "Non. Le budget média est distinct des honoraires et reste sous votre contrôle. Nous vous conseillons sur son allocation." },
+        { "q": "Que se passe-t-il après 90 jours ?", "a": "Vous disposez d’un système fonctionnel et documenté. Certains clients poursuivent en optimisation et scaling ; d’autres continuent en autonomie." }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à construire votre système ?",
+      "subtitle": "Réservez un appel stratégique pour évaluer si HighSystem 90 correspond à votre situation."
+    }
+  },
+  "solutions": {
+    "hero": {
+      "eyebrow": "Solutions",
+      "title": "Organisées par résultat, pas par service.",
+      "subtitle": "Nous ne vendons pas des services isolés. Chaque capacité ci-dessous fait partie d’un système unique, conçu pour produire un résultat business mesurable."
+    },
+    "categories": {
+      "acquire": {
+        "title": "Acquérir",
+        "description": "Attirer un flux régulier de prospects qualifiés.",
+        "items": ["Génération de leads", "Acquisition payante", "Landing pages", "Positionnement de l’offre"]
+      },
+      "convert": {
+        "title": "Convertir",
+        "description": "Transformer l’intérêt en clients, de façon structurée.",
+        "items": ["CRM", "Qualification des leads", "Scripts de vente", "Systèmes de relance", "Processus WhatsApp"]
+      },
+      "authority": {
+        "title": "Construire l’autorité",
+        "description": "Devenir la référence crédible de votre marché.",
+        "items": ["Stratégie de contenu", "Positionnement de marque", "Contenu porté par le fondateur", "Structure de preuve sociale"]
+      },
+      "measure": {
+        "title": "Mesurer",
+        "description": "Savoir précisément ce qui fonctionne et pourquoi.",
+        "items": ["Tracking", "Tableaux de bord", "Reporting", "Analyse de conversion"]
+      },
+      "scale": {
+        "title": "Scaler",
+        "description": "Amplifier ce qui marche, sans casser le système.",
+        "items": ["Optimisation des campagnes", "Documentation des process", "Workflows d’équipe", "Planification de la croissance"]
+      }
+    },
+    "cta": {
+      "title": "Chaque solution est un maillon du même système.",
+      "subtitle": "Discutons de celui qu’il vous manque."
+    }
+  },
+  "method": {
+    "hero": {
+      "eyebrow": "Méthode",
+      "title": "Le framework SYSTEM.",
+      "subtitle": "Notre méthode structure votre croissance en six étapes reliées, de la stratégie à la multiplication des résultats."
+    },
+    "steps": [
+      { "letter": "S", "title": "Stratégie", "text": "Nous définissons la direction avant toute exécution : objectifs, priorités et modèle de croissance adaptés à votre entreprise." },
+      { "letter": "Y", "title": "Your Market — Votre marché", "text": "Nous analysons votre marché, vos clients idéaux et vos concurrents pour affiner un positionnement clair et différenciant." },
+      { "letter": "S", "title": "System Design — Conception du système", "text": "Nous concevons l’architecture complète : acquisition, conversion, CRM, suivi et mesure, comme un ensemble cohérent." },
+      { "letter": "T", "title": "Traffic & Trust — Trafic et confiance", "text": "Nous générons de l’attention qualifiée et bâtissons la crédibilité qui transforme cette attention en confiance." },
+      { "letter": "E", "title": "Execution & Evaluation — Exécution et évaluation", "text": "Nous lançons, suivons et évaluons en continu, avec des données réelles plutôt que des hypothèses." },
+      { "letter": "M", "title": "Measurement & Multiplication — Mesure et multiplication", "text": "Nous mesurons chaque levier, puis amplifions ce qui fonctionne pour composer la croissance dans le temps." }
+    ],
+    "cta": {
+      "title": "Une méthode conçue pour durer.",
+      "subtitle": "Voyons comment l’appliquer à votre entreprise."
+    }
+  },
+  "industries": {
+    "hero": {
+      "eyebrow": "Secteurs",
+      "title": "Des systèmes adaptés à votre marché.",
+      "subtitle": "Chaque secteur a ses cycles, ses canaux et ses signaux d’achat. Nous concevons le système en conséquence."
+    },
+    "detail": {
+      "challenges": "Défis typiques",
+      "opportunities": "Opportunités de croissance",
+      "system": "Système recommandé",
+      "channels": "Canaux d’acquisition clés",
+      "conversion": "Processus de conversion",
+      "kpis": "Indicateurs pertinents"
+    },
+    "items": {
+      "real-estate-developers": {
+        "name": "Promoteurs immobiliers",
+        "short": "Structurer la vente de programmes immobiliers à cycle long avec un système d’acquisition et de suivi rigoureux.",
+        "challenges": ["Cycles de vente longs et complexes", "Leads nombreux mais mal qualifiés", "Suivi commercial dispersé entre agents"],
+        "opportunities": ["Pré-commercialisation structurée", "Qualification automatisée des acquéreurs", "Visibilité sur le pipeline par programme"],
+        "system": "Un système d’acquisition ciblée par programme, relié à un CRM qui suit chaque acquéreur du premier contact à la signature.",
+        "channels": ["Meta Ads", "Google Ads", "Landing pages par programme"],
+        "conversion": "Qualification, prise de rendez-vous, suivi structuré et relances multicanales jusqu’à la décision.",
+        "kpis": ["Coût par lead qualifié", "Taux de rendez-vous", "Taux de conversion par programme"]
+      },
+      "real-estate-agencies": {
+        "name": "Agences immobilières",
+        "short": "Générer un flux constant d’acquéreurs et de vendeurs qualifiés, sans dépendre uniquement des recommandations.",
+        "challenges": ["Dépendance au bouche-à-oreille", "Leads perdus faute de suivi", "Concurrence forte sur les mêmes biens"],
+        "opportunities": ["Acquisition prévisible de mandats", "Base de contacts activée dans le temps", "Positionnement local différenciant"],
+        "system": "Un système qui alimente l’agence en mandats et acquéreurs, avec un CRM et des relances automatisées.",
+        "channels": ["Meta Ads", "Google Ads", "Contenu local"],
+        "conversion": "Capture, qualification rapide, prise de rendez-vous et suivi WhatsApp structuré.",
+        "kpis": ["Nombre de mandats générés", "Coût par acquéreur qualifié", "Taux de transformation"]
+      },
+      "hotels-riads": {
+        "name": "Hôtels & Riads",
+        "short": "Augmenter les réservations directes et réduire la dépendance aux plateformes tierces.",
+        "challenges": ["Commissions élevées des plateformes", "Saisonnalité de la demande", "Faible fidélisation directe"],
+        "opportunities": ["Réservations directes plus rentables", "Base clients réactivable hors saison", "Image de marque premium"],
+        "system": "Un système de réservation directe soutenu par du contenu, des campagnes ciblées et un suivi des clients.",
+        "channels": ["Meta Ads", "Google Ads", "Email & contenu"],
+        "conversion": "Landing pages optimisées, offres directes claires et relances des demandes non converties.",
+        "kpis": ["Part des réservations directes", "Coût d’acquisition par réservation", "Taux de remplissage"]
+      },
+      "automotive": {
+        "name": "Automobile",
+        "short": "Générer des demandes qualifiées et structurer le suivi commercial des concessions et acteurs automobiles.",
+        "challenges": ["Leads volatils et peu suivis", "Cycle de décision variable", "Concurrence sur les prix"],
+        "opportunities": ["Flux constant de demandes qualifiées", "Suivi commercial structuré", "Valorisation des services annexes"],
+        "system": "Un système d’acquisition et de qualification relié à un CRM et à des relances rapides.",
+        "channels": ["Meta Ads", "Google Ads", "Landing pages par modèle"],
+        "conversion": "Qualification immédiate, prise de rendez-vous et suivi commercial documenté.",
+        "kpis": ["Coût par lead qualifié", "Taux de rendez-vous", "Taux de conversion en vente"]
+      },
+      "car-rental": {
+        "name": "Location de véhicules",
+        "short": "Maximiser les réservations et le taux d’utilisation de la flotte grâce à un système d’acquisition efficace.",
+        "challenges": ["Forte concurrence et pression sur les prix", "Demande saisonnière", "Réservations dépendantes des plateformes"],
+        "opportunities": ["Réservations directes récurrentes", "Optimisation du taux d’utilisation", "Fidélisation des clients réguliers"],
+        "system": "Un système de réservation directe avec acquisition ciblée et relances automatisées.",
+        "channels": ["Meta Ads", "Google Ads", "Contenu local & saisonnier"],
+        "conversion": "Landing pages de réservation, réponse rapide et suivi des demandes.",
+        "kpis": ["Coût par réservation", "Taux d’utilisation de la flotte", "Valeur client récurrente"]
+      },
+      "private-clinics": {
+        "name": "Cliniques privées",
+        "short": "Attirer les bons patients pour les bons services, avec un système respectueux et professionnel.",
+        "challenges": ["Concurrence croissante", "Demandes mal orientées", "Suivi des patients peu structuré"],
+        "opportunities": ["Acquisition ciblée par spécialité", "Meilleure orientation des demandes", "Réputation et confiance renforcées"],
+        "system": "Un système d’acquisition par spécialité, relié à un suivi structuré et respectueux des patients.",
+        "channels": ["Meta Ads", "Google Ads", "Contenu d’expertise"],
+        "conversion": "Prise de rendez-vous simplifiée, qualification et relances adaptées.",
+        "kpis": ["Coût par demande qualifiée", "Taux de prise de rendez-vous", "Taux de présence aux rendez-vous"]
+      },
+      "service-businesses": {
+        "name": "Entreprises de services à forte valeur",
+        "short": "Structurer l’acquisition et la vente de prestations à forte valeur, avec un positionnement premium.",
+        "challenges": ["Ventes dépendantes du fondateur", "Cycle de décision long", "Difficulté à démontrer la valeur"],
+        "opportunities": ["Pipeline prévisible de prospects qualifiés", "Processus de vente réplicable", "Positionnement d’expert"],
+        "system": "Un système complet reliant positionnement, acquisition, qualification et processus de vente documenté.",
+        "channels": ["Meta Ads", "Google Ads", "Contenu porté par le fondateur"],
+        "conversion": "Qualification, appels de découverte, propositions et relances structurées.",
+        "kpis": ["Coût par prospect qualifié", "Taux de conversion en client", "Valeur moyenne par client"]
+      }
+    },
+    "cta": {
+      "title": "Votre secteur mérite un système sur mesure.",
+      "subtitle": "Réservez un appel stratégique pour en discuter."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "À propos",
+      "title": "Nous construisons des systèmes, pas des promesses.",
+      "subtitle": "HighSystem est une société de transformation et de croissance qui aide les entreprises établies à structurer leur acquisition, leurs ventes et leur présence digitale."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "Un monde où la croissance des entreprises repose sur des systèmes clairs et mesurables, et non sur la chance, l’improvisation ou la dépendance à une seule personne."
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Aider les entreprises établies à transformer leur acquisition, leur processus commercial et leur présence digitale en un système structuré, mesurable et évolutif."
+    },
+    "philosophy": {
+      "title": "Philosophie stratégique",
+      "text": "Nous croyons que la stratégie précède l’exécution, que les décisions doivent s’appuyer sur des données, et qu’un bon système rend l’entreprise moins dépendante des efforts individuels. Nous préférons construire des actifs durables plutôt que des résultats éphémères."
+    },
+    "howWeWork": {
+      "title": "Comment nous travaillons avec nos clients",
+      "items": [
+        "Nous commençons par comprendre avant de proposer.",
+        "Nous concevons un système avant de lancer des tactiques.",
+        "Nous mesurons chaque décision.",
+        "Nous communiquons avec clarté et transparence.",
+        "Nous travaillons avec un nombre limité de clients pour garantir la qualité."
+      ]
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "items": [
+        { "title": "Clarté", "text": "Nous simplifions le complexe et disons les choses telles qu’elles sont." },
+        { "title": "Responsabilité", "text": "Nous assumons nos recommandations et nos résultats." },
+        { "title": "Mesure", "text": "Ce qui n’est pas mesuré ne peut pas être amélioré." },
+        { "title": "Simplicité", "text": "Un bon système est aussi simple que possible, mais pas plus." },
+        { "title": "Exécution", "text": "La stratégie ne vaut que par sa mise en œuvre." },
+        { "title": "Vision long terme", "text": "Nous construisons pour durer, pas pour un pic éphémère." }
+      ]
+    },
+    "founder": {
+      "title": "Le fondateur"
+    },
+    "cta": {
+      "title": "Travaillons ensemble sur votre système.",
+      "subtitle": "Réservez un appel stratégique pour commencer."
+    }
+  },
+  "insights": {
+    "hero": {
+      "eyebrow": "Analyses",
+      "title": "Des idées concrètes sur la croissance par les systèmes.",
+      "subtitle": "Stratégie, acquisition, vente et transformation digitale — sans jargon inutile."
+    },
+    "categories": {
+      "growth-strategy": "Stratégie de croissance",
+      "client-acquisition": "Acquisition client",
+      "sales-systems": "Systèmes de vente",
+      "digital-transformation": "Transformation digitale",
+      "real-estate": "Immobilier",
+      "hospitality": "Hôtellerie",
+      "business-operations": "Opérations"
+    },
+    "empty": "Aucun article dans cette catégorie pour le moment."
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Appel stratégique",
+      "title": "Réservez votre appel stratégique.",
+      "subtitle": "Cet appel sert à évaluer votre situation et à déterminer si un système HighSystem correspond à vos objectifs.",
+      "limitedNote": "HighSystem travaille avec un nombre limité d’entreprises qualifiées. Ce formulaire nous aide à évaluer l’adéquation avant l’appel."
+    },
+    "form": {
+      "sectionYou": "Vous & votre entreprise",
+      "sectionBusiness": "Votre situation",
+      "sectionPreferences": "Préférences",
+      "fullName": "Nom complet",
+      "companyName": "Nom de l’entreprise",
+      "jobTitle": "Fonction",
+      "email": "E-mail professionnel",
+      "phone": "Téléphone / WhatsApp",
+      "website": "Site web",
+      "country": "Pays",
+      "industry": "Secteur d’activité",
+      "revenue": "Chiffre d’affaires mensuel approximatif",
+      "marketingSituation": "Votre situation marketing actuelle",
+      "challenge": "Principal défi business",
+      "objective": "Objectif souhaité",
+      "teamSize": "Taille de l’équipe",
+      "investment": "Budget mensuel de croissance envisagé",
+      "preferredLanguage": "Langue préférée",
+      "contactMethod": "Mode de contact préféré",
+      "optional": "(facultatif)",
+      "select": "Sélectionner…",
+      "submit": "Envoyer ma candidature",
+      "submitting": "Envoi en cours…",
+      "revenueOptions": {
+        "pre_revenue": "Pré-revenu",
+        "lt_100k": "Moins de 100 000 MAD/mois",
+        "100k_300k": "100 000 – 300 000 MAD/mois",
+        "300k_1m": "300 000 – 1 000 000 MAD/mois",
+        "gt_1m": "Plus de 1 000 000 MAD/mois",
+        "prefer_not": "Je préfère ne pas répondre"
+      },
+      "investmentOptions": {
+        "lt_10k": "Moins de 10 000 MAD/mois",
+        "10k_25k": "10 000 – 25 000 MAD/mois",
+        "25k_50k": "25 000 – 50 000 MAD/mois",
+        "gt_50k": "Plus de 50 000 MAD/mois",
+        "not_sure": "Pas encore sûr"
+      },
+      "languageOptions": {
+        "fr": "Français",
+        "en": "Anglais",
+        "ar": "Arabe"
+      },
+      "contactMethodOptions": {
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "whatsapp": "WhatsApp"
+      },
+      "teamSizeOptions": {
+        "1": "1 personne",
+        "2_5": "2 – 5 personnes",
+        "6_20": "6 – 20 personnes",
+        "21_50": "21 – 50 personnes",
+        "50_plus": "Plus de 50 personnes"
+      }
+    },
+    "validation": {
+      "required": "Ce champ est requis.",
+      "email": "Veuillez saisir un e-mail valide.",
+      "minLength": "Réponse trop courte.",
+      "consent": "Votre consentement est requis pour continuer."
+    },
+    "consent": "J’accepte que HighSystem me contacte au sujet de ma demande et traite mes données conformément à la politique de confidentialité.",
+    "error": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement.",
+    "success": {
+      "title": "Merci — votre candidature a bien été reçue.",
+      "subtitle": "Notre équipe examine votre demande. Si votre situation correspond à notre approche, nous vous recontacterons pour planifier votre appel stratégique.",
+      "next": "Prochaines étapes",
+      "steps": [
+        "Nous examinons votre candidature.",
+        "Nous évaluons l’adéquation avec HighSystem 90.",
+        "Si c’est pertinent, nous planifions votre appel stratégique."
+      ]
+    }
+  },
+  "payment": {
+    "hero": {
+      "eyebrow": "Paiement sécurisé",
+      "title": "Espace de paiement HighSystem",
+      "subtitle": "Cet espace est réservé aux clients approuvés. Le montant et la devise proviennent de votre proposition validée."
+    },
+    "gate": {
+      "title": "Lien de paiement privé requis",
+      "text": "Les paiements HighSystem s’effectuent uniquement après qualification et acceptation de la proposition. Vous recevrez un lien de paiement privé et sécurisé de la part de notre équipe.",
+      "cta": "Réserver un appel stratégique",
+      "support": "Vous avez déjà une proposition ? Contactez-nous pour recevoir votre lien de paiement sécurisé."
+    },
+    "summary": {
+      "client": "Client / Entreprise",
+      "offer": "Offre sélectionnée",
+      "amount": "Montant",
+      "currency": "Devise",
+      "type": "Type de paiement",
+      "status": "Statut",
+      "invoiceRef": "Référence facture"
+    },
+    "types": {
+      "full": "Paiement intégral",
+      "deposit": "Acompte initial",
+      "first_monthly": "Premier paiement mensuel",
+      "three_month_subscription": "Abonnement 3 mois",
+      "custom_installment": "Plan personnalisé"
+    },
+    "statuses": {
+      "draft": "Brouillon",
+      "awaiting_payment": "En attente de paiement",
+      "pending_verification": "En attente de vérification",
+      "partially_paid": "Partiellement payé",
+      "paid": "Payé",
+      "failed": "Échoué",
+      "cancelled": "Annulé",
+      "refunded": "Remboursé",
+      "overdue": "En retard"
+    },
+    "methods": {
+      "title": "Choisissez votre méthode de paiement",
+      "stripe": "Carte bancaire (paiement en ligne sécurisé)",
+      "paypal": "PayPal",
+      "bank_transfer": "Virement bancaire",
+      "cashplus": "Cash Plus",
+      "invoice": "Paiement sur facture",
+      "disabled": "Cette méthode n’est pas encore activée.",
+      "payNow": "Payer maintenant",
+      "redirecting": "Redirection vers le paiement sécurisé…"
+    },
+    "bank": {
+      "title": "Instructions de virement bancaire",
+      "beneficiary": "Bénéficiaire",
+      "bankName": "Banque",
+      "rib": "RIB",
+      "iban": "IBAN",
+      "swift": "SWIFT / BIC",
+      "reference": "Référence à indiquer",
+      "note": "Après le virement, confirmez votre paiement ci-dessous en joignant votre justificatif.",
+      "notConfigured": "Les coordonnées bancaires seront communiquées avec votre proposition."
+    },
+    "cashplus": {
+      "title": "Paiement Cash Plus",
+      "recipient": "Bénéficiaire",
+      "note": "Après le dépôt, confirmez votre paiement ci-dessous en joignant votre reçu.",
+      "notConfigured": "Les informations Cash Plus seront communiquées avec votre proposition."
+    },
+    "manual": {
+      "title": "Confirmer un paiement manuel",
+      "subtitle": "Pour un virement bancaire ou un dépôt Cash Plus, confirmez ici. Votre paiement sera marqué « En attente de vérification » jusqu’à validation par notre équipe.",
+      "fullName": "Nom complet",
+      "companyName": "Nom de l’entreprise",
+      "invoiceRef": "Référence facture",
+      "amountPaid": "Montant payé",
+      "paymentDate": "Date du paiement",
+      "method": "Méthode utilisée",
+      "transactionRef": "Référence de transaction",
+      "receipt": "Reçu ou capture d’écran",
+      "receiptHint": "PNG, JPG ou PDF — 5 Mo maximum.",
+      "message": "Message (facultatif)",
+      "submit": "Confirmer le paiement",
+      "submitting": "Envoi…",
+      "success": "Confirmation reçue. Votre paiement est en attente de vérification. Nous vous informerons dès sa validation.",
+      "error": "Impossible d’envoyer la confirmation. Vérifiez le fichier et réessayez.",
+      "fileTooLarge": "Le fichier dépasse 5 Mo.",
+      "fileType": "Format non accepté. Utilisez PNG, JPG ou PDF."
+    },
+    "terms": {
+      "accept": "J’ai lu et j’accepte les conditions de paiement.",
+      "required": "Vous devez accepter les conditions de paiement pour continuer.",
+      "link": "Voir les conditions de paiement"
+    },
+    "success": {
+      "title": "Paiement confirmé",
+      "subtitle": "Merci. Votre paiement a bien été enregistré. Vous recevrez une confirmation et les prochaines étapes de votre onboarding.",
+      "reference": "Référence de paiement",
+      "back": "Retour à l’accueil"
+    },
+    "cancel": {
+      "title": "Paiement annulé",
+      "subtitle": "Votre paiement n’a pas été finalisé. Aucun montant n’a été débité. Vous pouvez réessayer ou nous contacter.",
+      "retry": "Réessayer",
+      "back": "Retour à l’accueil"
+    },
+    "legal": {
+      "title": "Conditions de paiement",
+      "intro": "Ces conditions s’appliquent aux paiements des services HighSystem. Elles complètent le contrat signé, qui prévaut en cas de divergence.",
+      "note": "[À compléter par le propriétaire et un professionnel qualifié avant le lancement — voir le README.]",
+      "items": [
+        { "title": "Échéancier de paiement", "text": "Le calendrier de paiement est défini dans la proposition et le contrat signés." },
+        { "title": "Durée d’engagement minimale", "text": "HighSystem 90 repose sur un engagement minimum de trois mois, tel que précisé dans le contrat." },
+        { "title": "Acomptes", "text": "Un acompte peut être requis avant le démarrage. Les modalités figurent dans la proposition." },
+        { "title": "Retards de paiement", "text": "Les paiements en retard peuvent entraîner une suspension des services, selon les termes du contrat." },
+        { "title": "Conditions de remboursement", "text": "Les conditions de remboursement éventuelles sont définies dans le contrat signé." },
+        { "title": "Annulation", "text": "Les demandes d’annulation sont traitées selon les termes de l’accord signé ; elles ne suppriment pas automatiquement les obligations contractuelles." },
+        { "title": "Échecs de paiement", "text": "En cas d’échec de paiement récurrent, des relances sont envoyées ; les services peuvent être suspendus." },
+        { "title": "Activation des services", "text": "L’onboarding démarre après confirmation du paiement (ou vérification d’un paiement manuel)." },
+        { "title": "Vérification des paiements manuels", "text": "Les virements et paiements Cash Plus sont marqués « En attente de vérification » jusqu’à validation par notre équipe." }
+      ]
+    }
+  },
+  "portal": {
+    "title": "Espace client",
+    "subtitle": "Consultez vos propositions, factures et paiements en toute sécurité.",
+    "gate": "Cet espace est réservé aux clients approuvés, via un accès sécurisé ou un lien privé.",
+    "labels": {
+      "proposal": "Résumé de la proposition",
+      "contract": "Statut du contrat signé",
+      "invoices": "Factures",
+      "amountPaid": "Montant payé",
+      "balance": "Solde restant",
+      "nextPayment": "Prochaine échéance",
+      "history": "Historique des paiements",
+      "receipts": "Reçus",
+      "onboarding": "Statut d’onboarding"
+    }
+  },
+  "footer": {
+    "tagline": "Nous construisons des systèmes de croissance pour les entreprises ambitieuses.",
+    "explore": "Explorer",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "contactTitle": "Contact",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "disclaimer": "HighSystem est une société de transformation et de croissance. Nous ne garantissons pas de résultats financiers ; les résultats dépendent de nombreux facteurs propres à chaque entreprise."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "updated": "Dernière mise à jour",
+      "intro": "Cette politique explique comment HighSystem collecte, utilise et protège vos données. Elle doit être revue et complétée par un professionnel qualifié avant le lancement.",
+      "sections": [
+        { "title": "Données que nous collectons", "text": "Nous collectons les informations que vous fournissez via nos formulaires (nom, entreprise, coordonnées, informations business) ainsi que des données techniques anonymes de navigation." },
+        { "title": "Utilisation des données", "text": "Nous utilisons vos données pour évaluer votre demande, vous contacter, fournir nos services et améliorer notre site. Nous ne vendons pas vos données." },
+        { "title": "Partage des données", "text": "Vos données peuvent être traitées par des prestataires techniques (hébergement, CRM, paiement) uniquement dans le cadre de nos services." },
+        { "title": "Conservation", "text": "Nous conservons vos données aussi longtemps que nécessaire aux finalités décrites ou selon les obligations légales." },
+        { "title": "Vos droits", "text": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données en nous contactant." },
+        { "title": "Sécurité", "text": "Nous mettons en œuvre des mesures raisonnables pour protéger vos données. Aucune méthode n’est totalement infaillible." },
+        { "title": "Contact", "text": "Pour toute question relative à cette politique, contactez-nous via les coordonnées indiquées sur ce site." }
+      ]
+    },
+    "terms": {
+      "title": "Conditions générales",
+      "updated": "Dernière mise à jour",
+      "intro": "Ces conditions régissent l’utilisation du site et des services HighSystem. Elles doivent être revues et complétées par un professionnel qualifié avant le lancement.",
+      "sections": [
+        { "title": "Objet", "text": "Ces conditions encadrent l’accès au site et la prestation des services de conseil et de transformation de HighSystem." },
+        { "title": "Services", "text": "Les services sont définis dans chaque proposition et contrat signés. Le contrat prévaut en cas de divergence avec le site." },
+        { "title": "Aucune garantie de résultat", "text": "HighSystem s’engage sur une méthodologie et une exécution sérieuses, mais ne garantit pas de résultats financiers spécifiques." },
+        { "title": "Paiements", "text": "Les modalités de paiement figurent dans la proposition, le contrat et les conditions de paiement du site." },
+        { "title": "Propriété intellectuelle", "text": "Le contenu du site appartient à HighSystem. Les livrables clients sont régis par le contrat." },
+        { "title": "Responsabilité", "text": "Dans les limites permises par la loi, la responsabilité de HighSystem est limitée aux montants effectivement versés pour les services concernés." },
+        { "title": "Droit applicable", "text": "[À compléter — indiquez le droit applicable et la juridiction compétente.]" }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "subtitle": "La page que vous recherchez n’existe pas ou a été déplacée.",
+    "back": "Retour à l’accueil"
+  }
+}
