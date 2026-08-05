@@ -142,19 +142,44 @@
       "phases": [
         {
           "name": "Diagnostiquer",
-          "items": ["Audit business", "Analyse de marché", "Revue du positionnement", "Évaluation de l’offre", "Analyse du tunnel et des ventes"]
+          "items": [
+            "Audit business",
+            "Analyse de marché",
+            "Revue du positionnement",
+            "Évaluation de l’offre",
+            "Analyse du tunnel et des ventes"
+          ]
         },
         {
           "name": "Construire",
-          "items": ["Stratégie de croissance", "Infrastructure d’acquisition", "Landing pages", "Structure CRM", "Système de tracking", "Processus de vente"]
+          "items": [
+            "Stratégie de croissance",
+            "Infrastructure d’acquisition",
+            "Landing pages",
+            "Structure CRM",
+            "Système de tracking",
+            "Processus de vente"
+          ]
         },
         {
           "name": "Lancer",
-          "items": ["Lancement des campagnes", "Déploiement du contenu", "Génération de leads", "Mise en place du suivi", "Support commercial"]
+          "items": [
+            "Lancement des campagnes",
+            "Déploiement du contenu",
+            "Génération de leads",
+            "Mise en place du suivi",
+            "Support commercial"
+          ]
         },
         {
           "name": "Optimiser",
-          "items": ["Analyse des données", "Amélioration de la conversion", "Optimisation des campagnes", "Amélioration des process d’équipe", "Feuille de route de scaling"]
+          "items": [
+            "Analyse des données",
+            "Amélioration de la conversion",
+            "Optimisation des campagnes",
+            "Amélioration des process d’équipe",
+            "Feuille de route de scaling"
+          ]
         }
       ]
     },
@@ -162,7 +187,15 @@
       "eyebrow": "Un système intégré",
       "title": "Sept piliers, un seul système.",
       "subtitle": "Chaque pilier alimente le suivant. C’est cette connexion qui produit une croissance composée.",
-      "pillars": ["Stratégie", "Positionnement", "Acquisition", "Conversion", "Fidélisation", "Mesure", "Scaling"]
+      "pillars": [
+        "Stratégie",
+        "Position",
+        "Acquisition",
+        "Conversion",
+        "Fidélisation",
+        "Mesure",
+        "Scaling"
+      ]
     },
     "industries": {
       "eyebrow": "Secteurs",
@@ -173,13 +206,34 @@
       "eyebrow": "Pourquoi HighSysteme",
       "title": "Un partenaire stratégique, pas un prestataire de services.",
       "items": [
-        { "title": "Un système intégré", "text": "Tout est relié : acquisition, conversion, suivi et mesure fonctionnent ensemble." },
-        { "title": "La stratégie avant l’exécution", "text": "Nous définissons la direction avant de dépenser un dirham en publicité." },
-        { "title": "Des décisions basées sur les données", "text": "Vos décisions s’appuient sur des chiffres fiables, pas sur des intuitions." },
-        { "title": "Une implication au niveau fondateur", "text": "Votre système est conçu avec l’attention d’un partenaire, pas délégué à un stagiaire." },
-        { "title": "Une capacité client limitée", "text": "Nous travaillons avec un nombre restreint d’entreprises pour garantir la qualité." },
-        { "title": "Une base de croissance durable", "text": "Nous construisons un actif qui vous appartient, pas une dépendance." },
-        { "title": "Communication et reporting clairs", "text": "Vous savez toujours ce qui est fait, pourquoi, et avec quels résultats." }
+        {
+          "title": "Un système intégré",
+          "text": "Tout est relié : acquisition, conversion, suivi et mesure fonctionnent ensemble."
+        },
+        {
+          "title": "La stratégie avant l’exécution",
+          "text": "Nous définissons la direction avant de dépenser un dirham en publicité."
+        },
+        {
+          "title": "Des décisions basées sur les données",
+          "text": "Vos décisions s’appuient sur des chiffres fiables, pas sur des intuitions."
+        },
+        {
+          "title": "Une implication au niveau fondateur",
+          "text": "Votre système est conçu avec l’attention d’un partenaire, pas délégué à un stagiaire."
+        },
+        {
+          "title": "Une capacité client limitée",
+          "text": "Nous travaillons avec un nombre restreint d’entreprises pour garantir la qualité."
+        },
+        {
+          "title": "Une base de croissance durable",
+          "text": "Nous construisons un actif qui vous appartient, pas une dépendance."
+        },
+        {
+          "title": "Communication et reporting clairs",
+          "text": "Vous savez toujours ce qui est fait, pourquoi, et avec quels résultats."
+        }
       ]
     },
     "founder": {
@@ -306,11 +360,26 @@
     "faq": {
       "title": "Questions fréquentes",
       "items": [
-        { "q": "Pourquoi minimum 90 jours ?", "a": "Construire un système d’acquisition, de conversion et de mesure fiable demande du temps : diagnostiquer, construire, lancer, puis optimiser sur des données réelles. 90 jours est le minimum pour produire un cycle complet et mesurable." },
-        { "q": "Garantissez-vous des résultats ?", "a": "Non. Nous garantissons une méthodologie rigoureuse, une exécution sérieuse et une transparence totale. Les résultats dépendent aussi de votre marché, de votre offre et de votre implication." },
-        { "q": "Remplacez-vous notre équipe ?", "a": "Non. Nous construisons le système et travaillons avec votre équipe. L’objectif est de vous rendre autonome, pas dépendant." },
-        { "q": "Le budget publicitaire est-il inclus ?", "a": "Non. Le budget média est distinct des honoraires et reste sous votre contrôle. Nous vous conseillons sur son allocation." },
-        { "q": "Que se passe-t-il après 90 jours ?", "a": "Vous disposez d’un système fonctionnel et documenté. Certains clients poursuivent en optimisation et scaling ; d’autres continuent en autonomie." }
+        {
+          "q": "Pourquoi minimum 90 jours ?",
+          "a": "Construire un système d’acquisition, de conversion et de mesure fiable demande du temps : diagnostiquer, construire, lancer, puis optimiser sur des données réelles. 90 jours est le minimum pour produire un cycle complet et mesurable."
+        },
+        {
+          "q": "Garantissez-vous des résultats ?",
+          "a": "Non. Nous garantissons une méthodologie rigoureuse, une exécution sérieuse et une transparence totale. Les résultats dépendent aussi de votre marché, de votre offre et de votre implication."
+        },
+        {
+          "q": "Remplacez-vous notre équipe ?",
+          "a": "Non. Nous construisons le système et travaillons avec votre équipe. L’objectif est de vous rendre autonome, pas dépendant."
+        },
+        {
+          "q": "Le budget publicitaire est-il inclus ?",
+          "a": "Non. Le budget média est distinct des honoraires et reste sous votre contrôle. Nous vous conseillons sur son allocation."
+        },
+        {
+          "q": "Que se passe-t-il après 90 jours ?",
+          "a": "Vous disposez d’un système fonctionnel et documenté. Certains clients poursuivent en optimisation et scaling ; d’autres continuent en autonomie."
+        }
       ]
     },
     "cta": {
@@ -328,27 +397,53 @@
       "acquire": {
         "title": "Acquérir",
         "description": "Attirer un flux régulier de prospects qualifiés.",
-        "items": ["Génération de leads", "Acquisition payante", "Landing pages", "Positionnement de l’offre"]
+        "items": [
+          "Génération de leads",
+          "Acquisition payante",
+          "Landing pages",
+          "Positionnement de l’offre"
+        ]
       },
       "convert": {
         "title": "Convertir",
         "description": "Transformer l’intérêt en clients, de façon structurée.",
-        "items": ["CRM", "Qualification des leads", "Scripts de vente", "Systèmes de relance", "Processus WhatsApp"]
+        "items": [
+          "CRM",
+          "Qualification des leads",
+          "Scripts de vente",
+          "Systèmes de relance",
+          "Processus WhatsApp"
+        ]
       },
       "authority": {
         "title": "Construire l’autorité",
         "description": "Devenir la référence crédible de votre marché.",
-        "items": ["Stratégie de contenu", "Positionnement de marque", "Contenu porté par le fondateur", "Structure de preuve sociale"]
+        "items": [
+          "Stratégie de contenu",
+          "Positionnement de marque",
+          "Contenu porté par le fondateur",
+          "Structure de preuve sociale"
+        ]
       },
       "measure": {
         "title": "Mesurer",
         "description": "Savoir précisément ce qui fonctionne et pourquoi.",
-        "items": ["Tracking", "Tableaux de bord", "Reporting", "Analyse de conversion"]
+        "items": [
+          "Tracking",
+          "Tableaux de bord",
+          "Reporting",
+          "Analyse de conversion"
+        ]
       },
       "scale": {
         "title": "Scaler",
         "description": "Amplifier ce qui marche, sans casser le système.",
-        "items": ["Optimisation des campagnes", "Documentation des process", "Workflows d’équipe", "Planification de la croissance"]
+        "items": [
+          "Optimisation des campagnes",
+          "Documentation des process",
+          "Workflows d’équipe",
+          "Planification de la croissance"
+        ]
       }
     },
     "cta": {
@@ -363,12 +458,36 @@
       "subtitle": "Notre méthode structure votre croissance en six étapes reliées, de la stratégie à la multiplication des résultats."
     },
     "steps": [
-      { "letter": "S", "title": "Stratégie", "text": "Nous définissons la direction avant toute exécution : objectifs, priorités et modèle de croissance adaptés à votre entreprise." },
-      { "letter": "Y", "title": "Your Market — Votre marché", "text": "Nous analysons votre marché, vos clients idéaux et vos concurrents pour affiner un positionnement clair et différenciant." },
-      { "letter": "S", "title": "System Design — Conception du système", "text": "Nous concevons l’architecture complète : acquisition, conversion, CRM, suivi et mesure, comme un ensemble cohérent." },
-      { "letter": "T", "title": "Traffic & Trust — Trafic et confiance", "text": "Nous générons de l’attention qualifiée et bâtissons la crédibilité qui transforme cette attention en confiance." },
-      { "letter": "E", "title": "Execution & Evaluation — Exécution et évaluation", "text": "Nous lançons, suivons et évaluons en continu, avec des données réelles plutôt que des hypothèses." },
-      { "letter": "M", "title": "Measurement & Multiplication — Mesure et multiplication", "text": "Nous mesurons chaque levier, puis amplifions ce qui fonctionne pour composer la croissance dans le temps." }
+      {
+        "letter": "S",
+        "title": "Stratégie",
+        "text": "Nous définissons la direction avant toute exécution : objectifs, priorités et modèle de croissance adaptés à votre entreprise."
+      },
+      {
+        "letter": "Y",
+        "title": "Your Market — Votre marché",
+        "text": "Nous analysons votre marché, vos clients idéaux et vos concurrents pour affiner un positionnement clair et différenciant."
+      },
+      {
+        "letter": "S",
+        "title": "System Design — Conception du système",
+        "text": "Nous concevons l’architecture complète : acquisition, conversion, CRM, suivi et mesure, comme un ensemble cohérent."
+      },
+      {
+        "letter": "T",
+        "title": "Traffic & Trust — Trafic et confiance",
+        "text": "Nous générons de l’attention qualifiée et bâtissons la crédibilité qui transforme cette attention en confiance."
+      },
+      {
+        "letter": "E",
+        "title": "Execution & Evaluation — Exécution et évaluation",
+        "text": "Nous lançons, suivons et évaluons en continu, avec des données réelles plutôt que des hypothèses."
+      },
+      {
+        "letter": "M",
+        "title": "Measurement & Multiplication — Mesure et multiplication",
+        "text": "Nous mesurons chaque levier, puis amplifions ce qui fonctionne pour composer la croissance dans le temps."
+      }
     ],
     "cta": {
       "title": "Une méthode conçue pour durer.",
@@ -393,72 +512,184 @@
       "real-estate-developers": {
         "name": "Promoteurs immobiliers",
         "short": "Structurer la vente de programmes immobiliers à cycle long avec un système d’acquisition et de suivi rigoureux.",
-        "challenges": ["Cycles de vente longs et complexes", "Leads nombreux mais mal qualifiés", "Suivi commercial dispersé entre agents"],
-        "opportunities": ["Pré-commercialisation structurée", "Qualification automatisée des acquéreurs", "Visibilité sur le pipeline par programme"],
+        "challenges": [
+          "Cycles de vente longs et complexes",
+          "Leads nombreux mais mal qualifiés",
+          "Suivi commercial dispersé entre agents"
+        ],
+        "opportunities": [
+          "Pré-commercialisation structurée",
+          "Qualification automatisée des acquéreurs",
+          "Visibilité sur le pipeline par programme"
+        ],
         "system": "Un système d’acquisition ciblée par programme, relié à un CRM qui suit chaque acquéreur du premier contact à la signature.",
-        "channels": ["Meta Ads", "Google Ads", "Landing pages par programme"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Landing pages par programme"
+        ],
         "conversion": "Qualification, prise de rendez-vous, suivi structuré et relances multicanales jusqu’à la décision.",
-        "kpis": ["Coût par lead qualifié", "Taux de rendez-vous", "Taux de conversion par programme"]
+        "kpis": [
+          "Coût par lead qualifié",
+          "Taux de rendez-vous",
+          "Taux de conversion par programme"
+        ]
       },
       "real-estate-agencies": {
         "name": "Agences immobilières",
         "short": "Générer un flux constant d’acquéreurs et de vendeurs qualifiés, sans dépendre uniquement des recommandations.",
-        "challenges": ["Dépendance au bouche-à-oreille", "Leads perdus faute de suivi", "Concurrence forte sur les mêmes biens"],
-        "opportunities": ["Acquisition prévisible de mandats", "Base de contacts activée dans le temps", "Positionnement local différenciant"],
+        "challenges": [
+          "Dépendance au bouche-à-oreille",
+          "Leads perdus faute de suivi",
+          "Concurrence forte sur les mêmes biens"
+        ],
+        "opportunities": [
+          "Acquisition prévisible de mandats",
+          "Base de contacts activée dans le temps",
+          "Positionnement local différenciant"
+        ],
         "system": "Un système qui alimente l’agence en mandats et acquéreurs, avec un CRM et des relances automatisées.",
-        "channels": ["Meta Ads", "Google Ads", "Contenu local"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Contenu local"
+        ],
         "conversion": "Capture, qualification rapide, prise de rendez-vous et suivi WhatsApp structuré.",
-        "kpis": ["Nombre de mandats générés", "Coût par acquéreur qualifié", "Taux de transformation"]
+        "kpis": [
+          "Nombre de mandats générés",
+          "Coût par acquéreur qualifié",
+          "Taux de transformation"
+        ]
       },
       "hotels-riads": {
         "name": "Hôtels & Riads",
         "short": "Augmenter les réservations directes et réduire la dépendance aux plateformes tierces.",
-        "challenges": ["Commissions élevées des plateformes", "Saisonnalité de la demande", "Faible fidélisation directe"],
-        "opportunities": ["Réservations directes plus rentables", "Base clients réactivable hors saison", "Image de marque premium"],
+        "challenges": [
+          "Commissions élevées des plateformes",
+          "Saisonnalité de la demande",
+          "Faible fidélisation directe"
+        ],
+        "opportunities": [
+          "Réservations directes plus rentables",
+          "Base clients réactivable hors saison",
+          "Image de marque premium"
+        ],
         "system": "Un système de réservation directe soutenu par du contenu, des campagnes ciblées et un suivi des clients.",
-        "channels": ["Meta Ads", "Google Ads", "Email & contenu"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Email & contenu"
+        ],
         "conversion": "Landing pages optimisées, offres directes claires et relances des demandes non converties.",
-        "kpis": ["Part des réservations directes", "Coût d’acquisition par réservation", "Taux de remplissage"]
+        "kpis": [
+          "Part des réservations directes",
+          "Coût d’acquisition par réservation",
+          "Taux de remplissage"
+        ]
       },
       "automotive": {
         "name": "Automobile",
         "short": "Générer des demandes qualifiées et structurer le suivi commercial des concessions et acteurs automobiles.",
-        "challenges": ["Leads volatils et peu suivis", "Cycle de décision variable", "Concurrence sur les prix"],
-        "opportunities": ["Flux constant de demandes qualifiées", "Suivi commercial structuré", "Valorisation des services annexes"],
+        "challenges": [
+          "Leads volatils et peu suivis",
+          "Cycle de décision variable",
+          "Concurrence sur les prix"
+        ],
+        "opportunities": [
+          "Flux constant de demandes qualifiées",
+          "Suivi commercial structuré",
+          "Valorisation des services annexes"
+        ],
         "system": "Un système d’acquisition et de qualification relié à un CRM et à des relances rapides.",
-        "channels": ["Meta Ads", "Google Ads", "Landing pages par modèle"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Landing pages par modèle"
+        ],
         "conversion": "Qualification immédiate, prise de rendez-vous et suivi commercial documenté.",
-        "kpis": ["Coût par lead qualifié", "Taux de rendez-vous", "Taux de conversion en vente"]
+        "kpis": [
+          "Coût par lead qualifié",
+          "Taux de rendez-vous",
+          "Taux de conversion en vente"
+        ]
       },
       "car-rental": {
         "name": "Location de véhicules",
         "short": "Maximiser les réservations et le taux d’utilisation de la flotte grâce à un système d’acquisition efficace.",
-        "challenges": ["Forte concurrence et pression sur les prix", "Demande saisonnière", "Réservations dépendantes des plateformes"],
-        "opportunities": ["Réservations directes récurrentes", "Optimisation du taux d’utilisation", "Fidélisation des clients réguliers"],
+        "challenges": [
+          "Forte concurrence et pression sur les prix",
+          "Demande saisonnière",
+          "Réservations dépendantes des plateformes"
+        ],
+        "opportunities": [
+          "Réservations directes récurrentes",
+          "Optimisation du taux d’utilisation",
+          "Fidélisation des clients réguliers"
+        ],
         "system": "Un système de réservation directe avec acquisition ciblée et relances automatisées.",
-        "channels": ["Meta Ads", "Google Ads", "Contenu local & saisonnier"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Contenu local & saisonnier"
+        ],
         "conversion": "Landing pages de réservation, réponse rapide et suivi des demandes.",
-        "kpis": ["Coût par réservation", "Taux d’utilisation de la flotte", "Valeur client récurrente"]
+        "kpis": [
+          "Coût par réservation",
+          "Taux d’utilisation de la flotte",
+          "Valeur client récurrente"
+        ]
       },
       "private-clinics": {
         "name": "Cliniques privées",
         "short": "Attirer les bons patients pour les bons services, avec un système respectueux et professionnel.",
-        "challenges": ["Concurrence croissante", "Demandes mal orientées", "Suivi des patients peu structuré"],
-        "opportunities": ["Acquisition ciblée par spécialité", "Meilleure orientation des demandes", "Réputation et confiance renforcées"],
+        "challenges": [
+          "Concurrence croissante",
+          "Demandes mal orientées",
+          "Suivi des patients peu structuré"
+        ],
+        "opportunities": [
+          "Acquisition ciblée par spécialité",
+          "Meilleure orientation des demandes",
+          "Réputation et confiance renforcées"
+        ],
         "system": "Un système d’acquisition par spécialité, relié à un suivi structuré et respectueux des patients.",
-        "channels": ["Meta Ads", "Google Ads", "Contenu d’expertise"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Contenu d’expertise"
+        ],
         "conversion": "Prise de rendez-vous simplifiée, qualification et relances adaptées.",
-        "kpis": ["Coût par demande qualifiée", "Taux de prise de rendez-vous", "Taux de présence aux rendez-vous"]
+        "kpis": [
+          "Coût par demande qualifiée",
+          "Taux de prise de rendez-vous",
+          "Taux de présence aux rendez-vous"
+        ]
       },
       "service-businesses": {
         "name": "Entreprises de services à forte valeur",
         "short": "Structurer l’acquisition et la vente de prestations à forte valeur, avec un positionnement premium.",
-        "challenges": ["Ventes dépendantes du fondateur", "Cycle de décision long", "Difficulté à démontrer la valeur"],
-        "opportunities": ["Pipeline prévisible de prospects qualifiés", "Processus de vente réplicable", "Positionnement d’expert"],
+        "challenges": [
+          "Ventes dépendantes du fondateur",
+          "Cycle de décision long",
+          "Difficulté à démontrer la valeur"
+        ],
+        "opportunities": [
+          "Pipeline prévisible de prospects qualifiés",
+          "Processus de vente réplicable",
+          "Positionnement d’expert"
+        ],
         "system": "Un système complet reliant positionnement, acquisition, qualification et processus de vente documenté.",
-        "channels": ["Meta Ads", "Google Ads", "Contenu porté par le fondateur"],
+        "channels": [
+          "Meta Ads",
+          "Google Ads",
+          "Contenu porté par le fondateur"
+        ],
         "conversion": "Qualification, appels de découverte, propositions et relances structurées.",
-        "kpis": ["Coût par prospect qualifié", "Taux de conversion en client", "Valeur moyenne par client"]
+        "kpis": [
+          "Coût par prospect qualifié",
+          "Taux de conversion en client",
+          "Valeur moyenne par client"
+        ]
       }
     },
     "cta": {
@@ -497,12 +728,30 @@
     "values": {
       "title": "Nos valeurs",
       "items": [
-        { "title": "Clarté", "text": "Nous simplifions le complexe et disons les choses telles qu’elles sont." },
-        { "title": "Responsabilité", "text": "Nous assumons nos recommandations et nos résultats." },
-        { "title": "Mesure", "text": "Ce qui n’est pas mesuré ne peut pas être amélioré." },
-        { "title": "Simplicité", "text": "Un bon système est aussi simple que possible, mais pas plus." },
-        { "title": "Exécution", "text": "La stratégie ne vaut que par sa mise en œuvre." },
-        { "title": "Vision long terme", "text": "Nous construisons pour durer, pas pour un pic éphémère." }
+        {
+          "title": "Clarté",
+          "text": "Nous simplifions le complexe et disons les choses telles qu’elles sont."
+        },
+        {
+          "title": "Responsabilité",
+          "text": "Nous assumons nos recommandations et nos résultats."
+        },
+        {
+          "title": "Mesure",
+          "text": "Ce qui n’est pas mesuré ne peut pas être amélioré."
+        },
+        {
+          "title": "Simplicité",
+          "text": "Un bon système est aussi simple que possible, mais pas plus."
+        },
+        {
+          "title": "Exécution",
+          "text": "La stratégie ne vaut que par sa mise en œuvre."
+        },
+        {
+          "title": "Vision long terme",
+          "text": "Nous construisons pour durer, pas pour un pic éphémère."
+        }
       ]
     },
     "founder": {
@@ -722,15 +971,42 @@
       "intro": "Ces conditions s’appliquent aux paiements des services HighSysteme. Elles complètent le contrat signé, qui prévaut en cas de divergence.",
       "note": "[À compléter par le propriétaire et un professionnel qualifié avant le lancement — voir le README.]",
       "items": [
-        { "title": "Échéancier de paiement", "text": "Le calendrier de paiement est défini dans la proposition et le contrat signés." },
-        { "title": "Durée d’engagement minimale", "text": "HighSysteme 90 repose sur un engagement minimum de trois mois, tel que précisé dans le contrat." },
-        { "title": "Acomptes", "text": "Un acompte peut être requis avant le démarrage. Les modalités figurent dans la proposition." },
-        { "title": "Retards de paiement", "text": "Les paiements en retard peuvent entraîner une suspension des services, selon les termes du contrat." },
-        { "title": "Conditions de remboursement", "text": "Les conditions de remboursement éventuelles sont définies dans le contrat signé." },
-        { "title": "Annulation", "text": "Les demandes d’annulation sont traitées selon les termes de l’accord signé ; elles ne suppriment pas automatiquement les obligations contractuelles." },
-        { "title": "Échecs de paiement", "text": "En cas d’échec de paiement récurrent, des relances sont envoyées ; les services peuvent être suspendus." },
-        { "title": "Activation des services", "text": "L’onboarding démarre après confirmation du paiement (ou vérification d’un paiement manuel)." },
-        { "title": "Vérification des paiements manuels", "text": "Les virements et paiements Cash Plus sont marqués « En attente de vérification » jusqu’à validation par notre équipe." }
+        {
+          "title": "Échéancier de paiement",
+          "text": "Le calendrier de paiement est défini dans la proposition et le contrat signés."
+        },
+        {
+          "title": "Durée d’engagement minimale",
+          "text": "HighSysteme 90 repose sur un engagement minimum de trois mois, tel que précisé dans le contrat."
+        },
+        {
+          "title": "Acomptes",
+          "text": "Un acompte peut être requis avant le démarrage. Les modalités figurent dans la proposition."
+        },
+        {
+          "title": "Retards de paiement",
+          "text": "Les paiements en retard peuvent entraîner une suspension des services, selon les termes du contrat."
+        },
+        {
+          "title": "Conditions de remboursement",
+          "text": "Les conditions de remboursement éventuelles sont définies dans le contrat signé."
+        },
+        {
+          "title": "Annulation",
+          "text": "Les demandes d’annulation sont traitées selon les termes de l’accord signé ; elles ne suppriment pas automatiquement les obligations contractuelles."
+        },
+        {
+          "title": "Échecs de paiement",
+          "text": "En cas d’échec de paiement récurrent, des relances sont envoyées ; les services peuvent être suspendus."
+        },
+        {
+          "title": "Activation des services",
+          "text": "L’onboarding démarre après confirmation du paiement (ou vérification d’un paiement manuel)."
+        },
+        {
+          "title": "Vérification des paiements manuels",
+          "text": "Les virements et paiements Cash Plus sont marqués « En attente de vérification » jusqu’à validation par notre équipe."
+        }
       ]
     }
   },
@@ -767,13 +1043,34 @@
       "updated": "Dernière mise à jour",
       "intro": "Cette politique explique comment HighSysteme collecte, utilise et protège vos données. Elle doit être revue et complétée par un professionnel qualifié avant le lancement.",
       "sections": [
-        { "title": "Données que nous collectons", "text": "Nous collectons les informations que vous fournissez via nos formulaires (nom, entreprise, coordonnées, informations business) ainsi que des données techniques anonymes de navigation." },
-        { "title": "Utilisation des données", "text": "Nous utilisons vos données pour évaluer votre demande, vous contacter, fournir nos services et améliorer notre site. Nous ne vendons pas vos données." },
-        { "title": "Partage des données", "text": "Vos données peuvent être traitées par des prestataires techniques (hébergement, CRM, paiement) uniquement dans le cadre de nos services." },
-        { "title": "Conservation", "text": "Nous conservons vos données aussi longtemps que nécessaire aux finalités décrites ou selon les obligations légales." },
-        { "title": "Vos droits", "text": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données en nous contactant." },
-        { "title": "Sécurité", "text": "Nous mettons en œuvre des mesures raisonnables pour protéger vos données. Aucune méthode n’est totalement infaillible." },
-        { "title": "Contact", "text": "Pour toute question relative à cette politique, contactez-nous via les coordonnées indiquées sur ce site." }
+        {
+          "title": "Données que nous collectons",
+          "text": "Nous collectons les informations que vous fournissez via nos formulaires (nom, entreprise, coordonnées, informations business) ainsi que des données techniques anonymes de navigation."
+        },
+        {
+          "title": "Utilisation des données",
+          "text": "Nous utilisons vos données pour évaluer votre demande, vous contacter, fournir nos services et améliorer notre site. Nous ne vendons pas vos données."
+        },
+        {
+          "title": "Partage des données",
+          "text": "Vos données peuvent être traitées par des prestataires techniques (hébergement, CRM, paiement) uniquement dans le cadre de nos services."
+        },
+        {
+          "title": "Conservation",
+          "text": "Nous conservons vos données aussi longtemps que nécessaire aux finalités décrites ou selon les obligations légales."
+        },
+        {
+          "title": "Vos droits",
+          "text": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données en nous contactant."
+        },
+        {
+          "title": "Sécurité",
+          "text": "Nous mettons en œuvre des mesures raisonnables pour protéger vos données. Aucune méthode n’est totalement infaillible."
+        },
+        {
+          "title": "Contact",
+          "text": "Pour toute question relative à cette politique, contactez-nous via les coordonnées indiquées sur ce site."
+        }
       ]
     },
     "terms": {
@@ -781,13 +1078,34 @@
       "updated": "Dernière mise à jour",
       "intro": "Ces conditions régissent l’utilisation du site et des services HighSysteme. Elles doivent être revues et complétées par un professionnel qualifié avant le lancement.",
       "sections": [
-        { "title": "Objet", "text": "Ces conditions encadrent l’accès au site et la prestation des services de conseil et de transformation de HighSysteme." },
-        { "title": "Services", "text": "Les services sont définis dans chaque proposition et contrat signés. Le contrat prévaut en cas de divergence avec le site." },
-        { "title": "Aucune garantie de résultat", "text": "HighSysteme s’engage sur une méthodologie et une exécution sérieuses, mais ne garantit pas de résultats financiers spécifiques." },
-        { "title": "Paiements", "text": "Les modalités de paiement figurent dans la proposition, le contrat et les conditions de paiement du site." },
-        { "title": "Propriété intellectuelle", "text": "Le contenu du site appartient à HighSysteme. Les livrables clients sont régis par le contrat." },
-        { "title": "Responsabilité", "text": "Dans les limites permises par la loi, la responsabilité de HighSysteme est limitée aux montants effectivement versés pour les services concernés." },
-        { "title": "Droit applicable", "text": "[À compléter — indiquez le droit applicable et la juridiction compétente.]" }
+        {
+          "title": "Objet",
+          "text": "Ces conditions encadrent l’accès au site et la prestation des services de conseil et de transformation de HighSysteme."
+        },
+        {
+          "title": "Services",
+          "text": "Les services sont définis dans chaque proposition et contrat signés. Le contrat prévaut en cas de divergence avec le site."
+        },
+        {
+          "title": "Aucune garantie de résultat",
+          "text": "HighSysteme s’engage sur une méthodologie et une exécution sérieuses, mais ne garantit pas de résultats financiers spécifiques."
+        },
+        {
+          "title": "Paiements",
+          "text": "Les modalités de paiement figurent dans la proposition, le contrat et les conditions de paiement du site."
+        },
+        {
+          "title": "Propriété intellectuelle",
+          "text": "Le contenu du site appartient à HighSysteme. Les livrables clients sont régis par le contrat."
+        },
+        {
+          "title": "Responsabilité",
+          "text": "Dans les limites permises par la loi, la responsabilité de HighSysteme est limitée aux montants effectivement versés pour les services concernés."
+        },
+        {
+          "title": "Droit applicable",
+          "text": "[À compléter — indiquez le droit applicable et la juridiction compétente.]"
+        }
       ]
     }
   },

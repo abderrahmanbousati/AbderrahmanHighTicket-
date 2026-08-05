@@ -30,7 +30,7 @@ export function Footer() {
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-muted">
               {t('tagline')}
             </p>
-            <p className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-accent-cyan">
+            <p dir="ltr" className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-accent-cyan rtl:text-right">
               {siteConfig.tagline}
             </p>
           </div>

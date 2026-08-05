@@ -5,6 +5,7 @@ import { Icon } from '@/components/Icon';
 import { PageHero } from '@/components/PageHero';
 import { CTASection } from '@/components/CTASection';
 import { MotionReveal } from '@/components/MotionReveal';
+import { FounderCard } from '@/components/FounderCard';
 import { SectionHeading, CheckList } from '@/components/ui';
 import { buildMetadata } from '@/lib/seo';
 import type { Locale } from '@/i18n/routing';
@@ -82,26 +83,11 @@ function Philosophy() {
 }
 
 function Founder() {
-  const t = useTranslations('home.founder');
   const at = useTranslations('about.founder');
   return (
     <section className="section">
       <div className="container-hs">
-        <MotionReveal className="panel-ring mx-auto grid max-w-4xl items-center gap-10 p-8 sm:p-14 md:grid-cols-[auto_1fr]">
-          <div className="mx-auto grid h-32 w-32 place-items-center rounded-2xl border border-line bg-black font-display text-5xl text-white shadow-[0_24px_50px_-24px_rgba(10,10,10,0.5)]">
-            A
-          </div>
-          <div>
-            <span className="eyebrow">
-              <span className="h-1.5 w-1.5 rounded-full bg-accent-cyan" />
-              {at('title')}
-            </span>
-            <h2 className="heading-md mt-3">{t('name')}</h2>
-            <p className="text-sm font-medium text-accent-cyan">{t('role')}</p>
-            <p className="mt-4 leading-relaxed text-ink-light">{t('bio')}</p>
-            <p className="mt-3 text-xs italic text-ink-muted">{t('proofNote')}</p>
-          </div>
-        </MotionReveal>
+        <FounderCard eyebrow={at('title')} />
       </div>
     </section>
   );

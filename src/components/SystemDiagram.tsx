@@ -28,8 +28,8 @@ export function SystemDiagram() {
           <circle cx="200" cy="150" r="120" fill="url(#core)" />
           {pillars.map((_, i) => {
             const angle = (i / pillars.length) * Math.PI * 2 - Math.PI / 2;
-            const x = 200 + Math.cos(angle) * 110;
-            const y = 150 + Math.sin(angle) * 90;
+            const x = 200 + Math.cos(angle) * 125;
+            const y = 150 + Math.sin(angle) * 100;
             const highlighted = active === null || active === i;
             return (
               <motion.line
@@ -56,9 +56,14 @@ export function SystemDiagram() {
           </g>
           {pillars.map((label, i) => {
             const angle = (i / pillars.length) * Math.PI * 2 - Math.PI / 2;
-            const x = 200 + Math.cos(angle) * 110;
-            const y = 150 + Math.sin(angle) * 90;
+            const x = 200 + Math.cos(angle) * 125;
+            const y = 150 + Math.sin(angle) * 100;
             const isActive = active === i;
+            // Constrain long labels so they always fit inside the circle.
+            const fit =
+              label.length > 9
+                ? { textLength: 52, lengthAdjust: 'spacingAndGlyphs' as const }
+                : {};
             return (
               <g
                 key={`node-${i}`}
@@ -74,7 +79,7 @@ export function SystemDiagram() {
                 <circle
                   cx={x}
                   cy={y}
-                  r={isActive ? 26 : 24}
+                  r={isActive ? 32 : 30}
                   fill={isActive ? '#0A0A0A' : '#FFFFFF'}
                   stroke={isActive ? '#0A0A0A' : '#D4D4D8'}
                   strokeWidth="1.2"
@@ -84,9 +89,10 @@ export function SystemDiagram() {
                   x={x}
                   y={y + 3}
                   textAnchor="middle"
-                  fontSize="8.5"
+                  fontSize="7.5"
                   fontWeight="600"
                   fill={isActive ? '#FFFFFF' : '#3F3F46'}
+                  {...fit}
                 >
                   {label}
                 </text>
