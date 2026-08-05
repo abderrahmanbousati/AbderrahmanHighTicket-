@@ -11,6 +11,7 @@ import { IndustryGrid } from '@/components/IndustryGrid';
 import { CTASection } from '@/components/CTASection';
 import { MotionReveal } from '@/components/MotionReveal';
 import { ResultsStrip } from '@/components/ResultsStrip';
+import { GrowthSection } from '@/components/GrowthSection';
 import { FounderCard } from '@/components/FounderCard';
 import { SectionHeading, CheckList } from '@/components/ui';
 
@@ -27,6 +28,7 @@ export default async function HomePage({
       <ResultsStrip />
       <Problem />
       <Transformation />
+      <GrowthSection />
       <ProgramPreview />
       <SystemSection />
       <IndustriesSection />

@@ -276,6 +276,13 @@
         "projects": "Projects delivered",
         "growth": "Average monthly growth"
       }
+    },
+    "growth": {
+      "eyebrow": "Development",
+      "title": "Growth that compounds.",
+      "text": "A good system does not produce an isolated spike — it builds a trajectory. At +20% per month, growth compounds and more than doubles in under six months.",
+      "month": "Month",
+      "caption": "Illustration of the compounding-growth model (+20%/month)."
     }
   },
   "program": {

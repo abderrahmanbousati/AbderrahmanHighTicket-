@@ -276,6 +276,13 @@
         "projects": "Projets livrés",
         "growth": "Croissance mensuelle moyenne"
       }
+    },
+    "growth": {
+      "eyebrow": "Développement",
+      "title": "Une croissance qui se compose.",
+      "text": "Un bon système ne produit pas un pic isolé : il crée une trajectoire. À +20% par mois, la croissance se compose et double en moins de six mois.",
+      "month": "Mois",
+      "caption": "Illustration du modèle de croissance composée (+20%/mois)."
     }
   },
   "program": {
