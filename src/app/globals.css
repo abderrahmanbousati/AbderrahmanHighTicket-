@@ -170,6 +170,52 @@
   }
 }
 
+/* =====================================================================
+   Arabic (RTL) typography fixes — UNLAYERED so they override component
+   styles. Latin tracking + tight line-height + background-clip:text were
+   clipping Arabic letter dots and marks. Arabic must not have letter
+   spacing and needs more line-height for its ascenders/descenders.
+   ===================================================================== */
+html[dir='rtl'] h1,
+html[dir='rtl'] h2,
+html[dir='rtl'] h3,
+html[dir='rtl'] h4,
+html[dir='rtl'] .heading-xl,
+html[dir='rtl'] .heading-lg,
+html[dir='rtl'] .heading-md,
+html[dir='rtl'] .eyebrow,
+html[dir='rtl'] .lead {
+  letter-spacing: normal !important;
+  word-spacing: normal;
+  text-wrap: initial;
+}
+
+html[dir='rtl'] .heading-xl {
+  line-height: 1.45 !important;
+  padding-bottom: 0.08em;
+}
+html[dir='rtl'] .heading-lg {
+  line-height: 1.45 !important;
+  padding-bottom: 0.08em;
+}
+html[dir='rtl'] .heading-md,
+html[dir='rtl'] h1,
+html[dir='rtl'] h2,
+html[dir='rtl'] h3,
+html[dir='rtl'] h4 {
+  line-height: 1.5 !important;
+}
+
+/* Disable text gradient (background-clip:text) in RTL — it clips Arabic
+   dots/marks. Use a solid brand color instead. */
+html[dir='rtl'] .text-gradient {
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: #0a0a0a !important;
+  color: #0a0a0a !important;
+}
+
 /* Respect reduced motion globally */
 @media (prefers-reduced-motion: reduce) {
   * {

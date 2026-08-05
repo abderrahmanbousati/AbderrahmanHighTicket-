@@ -8,6 +8,7 @@ import { ProcessTimeline } from '@/components/ProcessTimeline';
 import { IndustryGrid } from '@/components/IndustryGrid';
 import { CTASection } from '@/components/CTASection';
 import { MotionReveal } from '@/components/MotionReveal';
+import { ResultsStrip } from '@/components/ResultsStrip';
 import { FounderCard } from '@/components/FounderCard';
 import { SectionHeading, CheckList } from '@/components/ui';
 
@@ -21,6 +22,7 @@ export default async function HomePage({
   return (
     <>
       <Hero />
+      <ResultsStrip />
       <Problem />
       <Transformation />
       <ProgramPreview />

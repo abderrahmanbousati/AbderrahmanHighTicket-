@@ -260,6 +260,19 @@
     "finalCta": {
       "title": "Votre prochaine étape n’est peut-être pas une nouvelle campagne. C’est un meilleur système.",
       "subtitle": "Réservez un appel stratégique pour évaluer votre situation actuelle et identifier le système dont votre croissance a besoin."
+    },
+    "results": {
+      "eyebrow": "Résultats",
+      "title": "Des résultats concrets, mesurés.",
+      "subtitle": "Des systèmes qui produisent des chiffres réels pour des entreprises réelles.",
+      "note": "Jusqu’à 50 leads qualifiés par jour pour certains clients — avec un coût par lead à partir de 0,38 $.",
+      "stats": {
+        "views": "Vues générées",
+        "clients": "Clients accompagnés",
+        "satisfaction": "Satisfaction client",
+        "projects": "Projets livrés",
+        "growth": "Croissance mensuelle moyenne"
+      }
     }
   },
   "program": {
