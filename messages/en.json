@@ -244,9 +244,9 @@
       "proofNote": "[Editable placeholder — add background, credentials, or proof here once available.]"
     },
     "caseStudies": {
-      "eyebrow": "Results",
-      "title": "Case studies, coming soon.",
-      "subtitle": "We document every transformation with real data. No case study is published until it is verified.",
+      "eyebrow": "Client results",
+      "title": "Real client transformations.",
+      "subtitle": "A look at the systems we put in place and the results achieved for our clients.",
       "emptyState": "Case studies will be added here after client validation. Each will show: industry, initial challenge, system implemented, duration, main result, and testimonial.",
       "labels": {
         "industry": "Industry",
@@ -254,7 +254,10 @@
         "system": "System implemented",
         "duration": "Duration",
         "result": "Main result",
-        "confidential": "Confidential client"
+        "confidential": "Confidential client",
+        "before": "The challenge",
+        "after": "The result",
+        "days": "days"
       }
     },
     "finalCta": {

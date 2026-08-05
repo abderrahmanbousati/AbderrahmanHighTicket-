@@ -244,9 +244,9 @@
       "proofNote": "[Espace éditable — ajoutez ici parcours, références ou preuves une fois disponibles.]"
     },
     "caseStudies": {
-      "eyebrow": "Résultats",
-      "title": "Des études de cas, bientôt.",
-      "subtitle": "Nous documentons chaque transformation avec des données réelles. Aucune étude de cas n’est publiée tant qu’elle n’est pas vérifiée.",
+      "eyebrow": "Résultats clients",
+      "title": "Des transformations réelles.",
+      "subtitle": "Un aperçu des systèmes que nous avons mis en place et des résultats obtenus pour nos clients.",
       "emptyState": "Les études de cas seront ajoutées ici après validation client. Chaque cas présentera : secteur, défi initial, système mis en place, durée, résultat principal et témoignage.",
       "labels": {
         "industry": "Secteur",
@@ -254,7 +254,10 @@
         "system": "Système mis en place",
         "duration": "Durée",
         "result": "Résultat principal",
-        "confidential": "Client confidentiel"
+        "confidential": "Client confidentiel",
+        "before": "Le défi",
+        "after": "Le résultat",
+        "days": "jours"
       }
     },
     "finalCta": {

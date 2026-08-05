@@ -64,7 +64,7 @@ src/
       layout.tsx              # <html lang/dir>, header/footer, fonts
       page.tsx                # Home
       highsystem-90/          # HighSysteme 90 program page
-      solutions/  method/  industries/  about/
+      solutions/  industries/  about/
       insights/               # Blog list + [slug] article pages
       contact/                # Strategy-call qualification form
       payment/                # Private payment page + success/cancel
@@ -83,26 +83,26 @@ src/
   components/                 # Reusable UI (Header, Footer, cards, diagrams…)
     payment/                  # Payment-specific components
   config/
-    site.ts                   # ★ Business info, contact, social, brand
+    site.ts                   # * Business info, contact, social, brand
     payments.ts               # Payment types/statuses + env-based config
   content/
     industries.ts             # Industry list (copy lives in messages)
     solutions.ts              # Solution categories
-    blog.ts                   # ★ Articles (trilingual)
-    case-studies.ts           # ★ Case studies (ships empty on purpose)
+    blog.ts                   # * Articles (trilingual)
+    case-studies.ts           # * Case studies (ships empty on purpose)
   i18n/                       # next-intl routing & request config
   lib/                        # seo, validation, payments, store, leads…
   middleware.ts               # Locale routing
-tailwind.config.ts            # ★ Colors / design tokens
+tailwind.config.ts            # * Colors / design tokens
 ```
 
-★ = the files you will most often edit.
+* = the files you will most often edit.
 
 ---
 
 ## Where to edit things
 
-### ✏️ Text & copy
+### Text & copy
 Almost all visible text lives in **`messages/fr.json`**, **`messages/en.json`**,
 and **`messages/ar.json`**. The three files share the **exact same key
 structure** — when you change a sentence, update it in all three.
@@ -118,7 +118,7 @@ structure** — when you change a sentence, update it in all three.
 > language the build still succeeds, but keeping the three files in sync is
 > strongly recommended.
 
-### 🎨 Colors & design
+### Colors & design
 - **Colors:** `tailwind.config.ts` → `theme.extend.colors` (navy, accent,
   ink, line). These mirror the brand palette. A couple of raw hex values also
   live in `src/app/globals.css` and `src/app/opengraph-image.tsx`.
@@ -127,7 +127,7 @@ structure** — when you change a sentence, update it in all three.
   fetch, so the build is reliable on any host.
 - **Global styles / component classes:** `src/app/globals.css`.
 
-### 📇 Contact info, social links, brand
+### Contact info, social links, brand
 Edit **`src/config/site.ts`**:
 - `contact.email`, `contact.phone`, `contact.whatsapp` (digits only),
   `contact.location`
@@ -136,25 +136,25 @@ Edit **`src/config/site.ts`**:
 
 > Do **not** put banking or payment secrets here — those go in `.env.local`.
 
-### 📝 Blog articles (Insights)
+### Blog articles (Insights)
 Edit **`src/content/blog.ts`**. Copy an existing entry in the `articles`
 array, give it a unique `slug`, set `published: true`, and fill in `title`,
 `excerpt`, and `body` for **all three languages**. Body blocks support
 paragraphs (`p`), section headings (`h2`), and bullet lists (`ul`).
 
-### 📊 Case studies
+### Case studies
 Edit **`src/content/case-studies.ts`**. It **ships empty on purpose** — never
 invent results. Copy the `exampleTemplate` shape into the `caseStudies` array,
 fill every language, and set `published: true`.
 
-### 🏭 Industries & solutions
+### Industries & solutions
 - Which industries appear + their icons: `src/content/industries.ts`
 - Solution categories + icons: `src/content/solutions.ts`
 - All their **text** (names, descriptions, challenges, KPIs…) lives in
   `messages/*.json` under `industries.items.<slug>` and
   `solutions.categories.<key>`.
 
-### ❓ FAQs
+### FAQs
 `messages/*.json` → `program.faq.items`.
 
 ---

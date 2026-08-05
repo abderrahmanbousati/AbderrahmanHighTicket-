@@ -1,5 +1,7 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
+import { getPublishedCaseStudies } from '@/content/case-studies';
+import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/routing';
 import { Icon } from '@/components/Icon';
 import { HeroVisual } from '@/components/HeroVisual';
@@ -221,13 +223,77 @@ function FounderSection() {
 
 function CaseStudiesSection() {
   const t = useTranslations('home.caseStudies');
+  const ti = useTranslations('industries.items');
+  const locale = useLocale() as Locale;
+  const cases = getPublishedCaseStudies();
+
   return (
     <section className="section bg-navy-800/40">
       <div className="container-hs">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} align="center" />
-        <MotionReveal className="mx-auto mt-10 max-w-3xl rounded-2xl border border-dashed border-line bg-navy-900/40 p-8 text-center">
-          <p className="text-ink-muted">{t('emptyState')}</p>
-        </MotionReveal>
+
+        {cases.length === 0 ? (
+          <MotionReveal className="mx-auto mt-10 max-w-3xl rounded-2xl border border-dashed border-line bg-navy-900/40 p-8 text-center">
+            <p className="text-ink-muted">{t('emptyState')}</p>
+          </MotionReveal>
+        ) : (
+          <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2">
+            {cases.map((c, i) => (
+              <MotionReveal
+                as="article"
+                key={c.slug}
+                delay={(i % 2) * 0.08}
+                className="card card-hover flex flex-col"
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <span className="rounded-full border border-line bg-white px-3 py-1 text-xs font-medium text-ink-white">
+                    {ti(`${c.industryKey}.name`)}
+                  </span>
+                  <span className="text-xs text-ink-muted">
+                    {c.durationDays} {t('labels.days')}
+                  </span>
+                </div>
+
+                <div className="mt-5 space-y-4">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">
+                      {t('labels.before')}
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed text-ink-light">{c.challenge[locale]}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">
+                      {t('labels.system')}
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed text-ink-light">
+                      {c.systemImplemented[locale]}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-5 rounded-xl border border-black/15 bg-neutral-50 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-ink-white">
+                    {t('labels.after')}
+                  </p>
+                  <p className="mt-1 font-semibold text-ink-white">{c.mainResult[locale]}</p>
+                </div>
+
+                {c.testimonial?.[locale] ? (
+                  <blockquote className="mt-5 border-s-2 border-black/20 ps-4 text-sm italic text-ink-light">
+                    “{c.testimonial[locale]}”
+                    {c.testimonialAuthor?.[locale] ? (
+                      <footer className="mt-1 not-italic text-xs text-ink-muted">
+                        — {c.testimonialAuthor[locale]}
+                      </footer>
+                    ) : null}
+                  </blockquote>
+                ) : null}
+              </MotionReveal>
+            ))}
+          </div>
+        )}
+
+        <p className="mt-8 text-center text-xs text-ink-muted">{t('labels.confidential')}</p>
       </div>
     </section>
   );
