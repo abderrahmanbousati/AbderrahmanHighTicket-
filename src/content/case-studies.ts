@@ -60,49 +60,78 @@ export const exampleTemplate: CaseStudy = {
   testimonialAuthor: { fr: '', en: '', ar: '' },
 };
 
-// Real, owner-provided results — anonymized by sector. Edit / add named
-// clients and testimonials as you collect them.
+// Real, owner-provided clients. Sectors + implemented systems are set;
+// replace each `mainResult` with the exact, verified figure for that client
+// and add `testimonial` / `testimonialAuthor` as you collect them.
 export const caseStudies: CaseStudy[] = [
   {
-    slug: 'acquisition-leads',
+    slug: 'groupe-aljazera',
     published: true,
-    industryKey: 'real-estate-agencies',
+    industryKey: 'real-estate-developers',
+    clientName: { fr: 'Groupe Aljazera', en: 'Groupe Aljazera', ar: 'مجموعة الجزيرة' },
     challenge: {
-      fr: 'Acquisition irrégulière et dépendante des recommandations, sans système de génération de leads.',
-      en: 'Irregular acquisition dependent on referrals, with no lead-generation system.',
-      ar: 'اكتساب غير منتظم يعتمد على التوصيات، دون نظام لتوليد العملاء المحتملين.',
+      fr: 'Acquisition dépendante des recommandations, sans tunnel de génération de leads structuré.',
+      en: 'Acquisition dependent on referrals, with no structured lead-generation funnel.',
+      ar: 'اكتساب يعتمد على التوصيات، دون قمع منظّم لتوليد العملاء المحتملين.',
     },
     systemImplemented: {
-      fr: 'Campagnes Meta Ads ciblées, landing page de capture et qualification, suivi WhatsApp structuré.',
-      en: 'Targeted Meta Ads campaigns, a capture-and-qualify landing page, and structured WhatsApp follow-up.',
-      ar: 'حملات ميتا مستهدفة، وصفحة هبوط للالتقاط والتأهيل، ومتابعة منظّمة عبر واتساب.',
+      fr: 'Campagnes Meta & Google Ads, landing pages par programme, CRM et suivi WhatsApp structuré.',
+      en: 'Meta & Google Ads campaigns, per-development landing pages, CRM and structured WhatsApp follow-up.',
+      ar: 'حملات ميتا وجوجل، وصفحات هبوط لكل مشروع، ونظام إدارة عملاء ومتابعة منظّمة عبر واتساب.',
     },
     durationDays: 90,
     mainResult: {
-      fr: '54 leads qualifiés générés à 0,38 $ par lead (208 clics, CPC 0,03 $).',
-      en: '54 qualified leads generated at $0.38 per lead (208 clicks, $0.03 CPC).',
-      ar: 'توليد 54 عميلاً محتملاً مؤهلاً بتكلفة 0.38 دولار لكل عميل (208 نقرة، تكلفة النقرة 0.03 دولار).',
+      fr: 'Acquisition structurée et pipeline de prospects qualifiés et suivi.',
+      en: 'Structured acquisition and a qualified, tracked prospect pipeline.',
+      ar: 'اكتساب منظّم وخط أنابيب من العملاء المؤهلين مع متابعة.',
     },
   },
   {
-    slug: 'croissance-mensuelle',
+    slug: 'hotel-aljazera',
     published: true,
-    industryKey: 'service-businesses',
+    industryKey: 'hotels-riads',
+    clientName: { fr: 'Hôtel Aljazera', en: 'Aljazera Hotel', ar: 'فندق الجزيرة' },
     challenge: {
-      fr: 'Présence digitale faible et croissance ni structurée ni mesurée.',
-      en: 'Weak digital presence and growth that was neither structured nor measured.',
-      ar: 'حضور رقمي ضعيف ونمو غير منظّم وغير مقاس.',
+      fr: 'Dépendance aux plateformes de réservation et faible flux de réservations directes.',
+      en: 'Dependence on booking platforms and a low flow of direct bookings.',
+      ar: 'الاعتماد على منصات الحجز وضعف تدفّق الحجوزات المباشرة.',
     },
     systemImplemented: {
-      fr: 'Système d’acquisition, stratégie de contenu et tableau de bord de suivi des performances.',
-      en: 'Acquisition system, content strategy, and a performance-tracking dashboard.',
-      ar: 'نظام اكتساب واستراتيجية محتوى ولوحة تتبّع للأداء.',
+      fr: 'Système de réservation directe, campagnes ciblées, contenu et suivi des demandes.',
+      en: 'Direct-booking system, targeted campaigns, content, and inquiry follow-up.',
+      ar: 'نظام حجز مباشر، وحملات مستهدفة، ومحتوى ومتابعة للطلبات.',
     },
     durationDays: 90,
     mainResult: {
-      fr: '+20% de croissance mensuelle moyenne et une acquisition devenue prévisible.',
-      en: '+20% average monthly growth and acquisition that became predictable.',
-      ar: '+20% متوسط نمو شهري واكتساب أصبح قابلاً للتنبؤ.',
+      fr: 'Présence digitale renforcée et canal de réservations directes structuré.',
+      en: 'Stronger digital presence and a structured direct-booking channel.',
+      ar: 'حضور رقمي أقوى وقناة حجوزات مباشرة منظّمة.',
+    },
+  },
+  {
+    slug: 'le-collectionneur-des-montres',
+    published: true,
+    industryKey: 'service-businesses',
+    clientName: {
+      fr: 'Le Collectionneur des Montres',
+      en: 'Le Collectionneur des Montres',
+      ar: 'Le Collectionneur des Montres',
+    },
+    challenge: {
+      fr: 'Offre premium à valoriser et acquisition à structurer autour de la marque.',
+      en: 'A premium offer to elevate and acquisition to structure around the brand.',
+      ar: 'عرض راقٍ يحتاج إلى إبراز واكتساب يحتاج إلى تنظيم حول العلامة.',
+    },
+    systemImplemented: {
+      fr: 'Positionnement de marque, acquisition payante, contenu et processus de vente.',
+      en: 'Brand positioning, paid acquisition, content, and a sales process.',
+      ar: 'تموضع العلامة، واكتساب مدفوع، ومحتوى وعملية بيع.',
+    },
+    durationDays: 90,
+    mainResult: {
+      fr: 'Image de marque premium et acquisition structurée autour de l’offre.',
+      en: 'A premium brand image and acquisition structured around the offer.',
+      ar: 'صورة علامة راقية واكتساب منظّم حول العرض.',
     },
   },
 ];

@@ -237,12 +237,12 @@ function CaseStudiesSection() {
             <p className="text-ink-muted">{t('emptyState')}</p>
           </MotionReveal>
         ) : (
-          <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2">
+          <div className="mx-auto mt-12 grid max-w-6xl gap-6 md:grid-cols-2 lg:grid-cols-3">
             {cases.map((c, i) => (
               <MotionReveal
                 as="article"
                 key={c.slug}
-                delay={(i % 2) * 0.08}
+                delay={(i % 3) * 0.08}
                 className="card card-hover flex flex-col"
               >
                 <div className="flex items-center justify-between gap-3">
@@ -254,7 +254,11 @@ function CaseStudiesSection() {
                   </span>
                 </div>
 
-                <div className="mt-5 space-y-4">
+                <h3 className="mt-4 text-lg font-semibold text-ink-white">
+                  {c.clientName?.[locale] ?? t('labels.confidential')}
+                </h3>
+
+                <div className="mt-4 space-y-4">
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">
                       {t('labels.before')}
@@ -292,8 +296,6 @@ function CaseStudiesSection() {
             ))}
           </div>
         )}
-
-        <p className="mt-8 text-center text-xs text-ink-muted">{t('labels.confidential')}</p>
       </div>
     </section>
   );
