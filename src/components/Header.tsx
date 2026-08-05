@@ -12,7 +12,6 @@ const navItems = [
   { href: '/', key: 'home' },
   { href: '/highsystem-90', key: 'program' },
   { href: '/solutions', key: 'solutions' },
-  { href: '/method', key: 'method' },
   { href: '/industries', key: 'industries' },
   { href: '/about', key: 'about' },
   { href: '/insights', key: 'insights' },
@@ -76,7 +75,10 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
-          <Link href="/contact" className="btn-primary hidden sm:inline-flex">
+          <Link
+            href="/contact"
+            className="btn-primary hidden whitespace-nowrap px-5 py-2.5 text-[13px] sm:inline-flex"
+          >
             {tc('bookCall')}
           </Link>
           <button

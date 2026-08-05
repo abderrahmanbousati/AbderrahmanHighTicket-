@@ -12,7 +12,6 @@ export function Footer() {
   const exploreLinks = [
     { href: '/highsystem-90', key: 'program' },
     { href: '/solutions', key: 'solutions' },
-    { href: '/method', key: 'method' },
     { href: '/industries', key: 'industries' },
   ] as const;
 

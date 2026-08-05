@@ -7,7 +7,6 @@ const staticPaths = [
   '',
   '/highsystem-90',
   '/solutions',
-  '/method',
   '/industries',
   '/about',
   '/insights',
