@@ -821,6 +821,7 @@
       "website": "Site web",
       "country": "Pays",
       "industry": "Secteur d’activité",
+      "currency": "Devise",
       "revenue": "Chiffre d’affaires mensuel approximatif",
       "marketingSituation": "Votre situation marketing actuelle",
       "challenge": "Principal défi business",
@@ -833,20 +834,51 @@
       "select": "Sélectionner…",
       "submit": "Envoyer ma candidature",
       "submitting": "Envoi en cours…",
+      "currencyOptions": {
+        "MAD": "Dirham (MAD)",
+        "EUR": "Euro (EUR)",
+        "USD": "Dollar (USD)"
+      },
       "revenueOptions": {
         "pre_revenue": "Pré-revenu",
-        "lt_100k": "Moins de 100 000 MAD/mois",
-        "100k_300k": "100 000 – 300 000 MAD/mois",
-        "300k_1m": "300 000 – 1 000 000 MAD/mois",
-        "gt_1m": "Plus de 1 000 000 MAD/mois",
-        "prefer_not": "Je préfère ne pas répondre"
+        "MAD": {
+          "tier1": "Moins de 100 000 MAD/mois",
+          "tier2": "100 000 – 300 000 MAD/mois",
+          "tier3": "300 000 – 1 000 000 MAD/mois",
+          "tier4": "Plus de 1 000 000 MAD/mois"
+        },
+        "EUR": {
+          "tier1": "Moins de 10 000 €/mois",
+          "tier2": "10 000 – 30 000 €/mois",
+          "tier3": "30 000 – 100 000 €/mois",
+          "tier4": "Plus de 100 000 €/mois"
+        },
+        "USD": {
+          "tier1": "Moins de 10 000 $/mois",
+          "tier2": "10 000 – 30 000 $/mois",
+          "tier3": "30 000 – 100 000 $/mois",
+          "tier4": "Plus de 100 000 $/mois"
+        }
       },
       "investmentOptions": {
-        "lt_10k": "Moins de 10 000 MAD/mois",
-        "10k_25k": "10 000 – 25 000 MAD/mois",
-        "25k_50k": "25 000 – 50 000 MAD/mois",
-        "gt_50k": "Plus de 50 000 MAD/mois",
-        "not_sure": "Pas encore sûr"
+        "MAD": {
+          "inv1": "Moins de 10 000 MAD/mois",
+          "inv2": "10 000 – 25 000 MAD/mois",
+          "inv3": "25 000 – 50 000 MAD/mois",
+          "inv4": "Plus de 50 000 MAD/mois"
+        },
+        "EUR": {
+          "inv1": "Moins de 1 000 €/mois",
+          "inv2": "1 000 – 2 500 €/mois",
+          "inv3": "2 500 – 5 000 €/mois",
+          "inv4": "Plus de 5 000 €/mois"
+        },
+        "USD": {
+          "inv1": "Moins de 1 000 $/mois",
+          "inv2": "1 000 – 2 500 $/mois",
+          "inv3": "2 500 – 5 000 $/mois",
+          "inv4": "Plus de 5 000 $/mois"
+        }
       },
       "languageOptions": {
         "fr": "Français",

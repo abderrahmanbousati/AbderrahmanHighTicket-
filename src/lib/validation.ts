@@ -1,21 +1,19 @@
 import { z } from 'zod';
 
+// Currency-neutral revenue tiers (labels are shown per selected currency).
 export const revenueRanges = [
   'pre_revenue',
-  'lt_100k',
-  '100k_300k',
-  '300k_1m',
-  'gt_1m',
-  'prefer_not',
+  'tier1',
+  'tier2',
+  'tier3',
+  'tier4',
 ] as const;
 
-export const investmentRanges = [
-  'lt_10k',
-  '10k_25k',
-  '25k_50k',
-  'gt_50k',
-  'not_sure',
-] as const;
+// Currency-neutral monthly-investment tiers.
+export const investmentRanges = ['inv1', 'inv2', 'inv3', 'inv4'] as const;
+
+// Supported currencies for the qualification form.
+export const formCurrencies = ['MAD', 'EUR', 'USD'] as const;
 
 export const teamSizes = ['1', '2_5', '6_20', '21_50', '50_plus'] as const;
 export const contactMethods = ['email', 'phone', 'whatsapp'] as const;
@@ -34,6 +32,7 @@ export const contactSchema = z.object({
   website: z.string().optional().or(z.literal('')),
   country: z.string().min(2, 'required'),
   industry: z.string().min(2, 'required'),
+  currency: z.enum(formCurrencies, { message: 'required' }),
   revenue: z.enum(revenueRanges, { message: 'required' }),
   marketingSituation: z.string().min(10, 'minLength'),
   challenge: z.string().min(10, 'minLength'),

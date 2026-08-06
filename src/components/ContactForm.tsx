@@ -7,11 +7,11 @@ import { useTranslations, useLocale } from 'next-intl';
 import {
   contactSchema,
   type ContactFormValues,
-  revenueRanges,
   investmentRanges,
   teamSizes,
   contactMethods,
   preferredLanguages,
+  formCurrencies,
 } from '@/lib/validation';
 import { Icon } from './Icon';
 import { Link } from '@/i18n/routing';
@@ -28,11 +28,18 @@ export function ContactForm() {
   const {
     register,
     handleSubmit,
+    watch,
     formState: { errors },
   } = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
-    defaultValues: { preferredLanguage: locale as 'fr' | 'en' | 'ar' },
+    defaultValues: {
+      preferredLanguage: locale as 'fr' | 'en' | 'ar',
+      currency: 'MAD',
+    },
   });
+
+  // Revenue/investment ranges are labeled in the selected currency.
+  const currency = (watch('currency') ?? 'MAD') as 'MAD' | 'EUR' | 'USD';
 
   async function onSubmit(values: ContactFormValues) {
     setStatus('submitting');
@@ -97,11 +104,19 @@ export function ContactForm() {
       </Fieldset>
 
       <Fieldset legend={t('sectionBusiness')}>
+        <Field label={t('currency')} error={err('currency')}>
+          <select className="field-input" {...register('currency')}>
+            {formCurrencies.map((r) => (
+              <option key={r} value={r}>{t(`currencyOptions.${r}`)}</option>
+            ))}
+          </select>
+        </Field>
         <Field label={t('revenue')} error={err('revenue')}>
           <select className="field-input" {...register('revenue')} defaultValue="">
             <option value="" disabled>{t('select')}</option>
-            {revenueRanges.map((r) => (
-              <option key={r} value={r}>{t(`revenueOptions.${r}`)}</option>
+            <option value="pre_revenue">{t('revenueOptions.pre_revenue')}</option>
+            {(['tier1', 'tier2', 'tier3', 'tier4'] as const).map((r) => (
+              <option key={r} value={r}>{t(`revenueOptions.${currency}.${r}`)}</option>
             ))}
           </select>
         </Field>
@@ -109,7 +124,7 @@ export function ContactForm() {
           <select className="field-input" {...register('investment')} defaultValue="">
             <option value="" disabled>{t('select')}</option>
             {investmentRanges.map((r) => (
-              <option key={r} value={r}>{t(`investmentOptions.${r}`)}</option>
+              <option key={r} value={r}>{t(`investmentOptions.${currency}.${r}`)}</option>
             ))}
           </select>
         </Field>
