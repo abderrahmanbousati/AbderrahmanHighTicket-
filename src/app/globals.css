@@ -167,9 +167,9 @@
     background: linear-gradient(90deg, transparent, #D4D4D8, transparent);
   }
 
-  /* Thin black accent rule for premium separators */
+  /* Accent rules removed per request — hidden everywhere in one place. */
   .rule-gold {
-    @apply h-px w-16 bg-black;
+    display: none !important;
   }
 }
 

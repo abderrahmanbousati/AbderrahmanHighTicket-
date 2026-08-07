@@ -44,7 +44,6 @@ export function FounderCard({ eyebrow }: { eyebrow: string }) {
         <h2 className="heading-md mt-3">{t('name')}</h2>
         <p className="text-sm font-medium text-accent-cyan">{t('role')}</p>
         <p className="mt-4 leading-relaxed text-ink-light">{t('bio')}</p>
-        <p className="mt-3 text-xs italic text-ink-muted">{t('proofNote')}</p>
       </div>
     </MotionReveal>
   );
