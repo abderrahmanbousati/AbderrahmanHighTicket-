@@ -73,21 +73,24 @@
   }
 
   .heading-xl {
-    @apply text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.25rem];
+    @apply text-[2.6rem] leading-[1.12] sm:text-6xl lg:text-[4.25rem];
     font-weight: 700;
     letter-spacing: -0.03em;
+    padding-bottom: 0.06em;
   }
 
   .heading-lg {
-    @apply text-4xl leading-[1.07] sm:text-5xl lg:text-[3.25rem];
+    @apply text-4xl leading-[1.14] sm:text-5xl lg:text-[3.25rem];
     font-weight: 700;
     letter-spacing: -0.025em;
+    padding-bottom: 0.06em;
   }
 
   .heading-md {
-    @apply text-2xl leading-tight sm:text-[2rem];
+    @apply text-2xl leading-[1.2] sm:text-[2rem];
     font-weight: 600;
     letter-spacing: -0.02em;
+    padding-bottom: 0.04em;
   }
 
   .lead {
