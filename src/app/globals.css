@@ -190,20 +190,20 @@ html[dir='rtl'] .lead {
   text-wrap: initial;
 }
 
-html[dir='rtl'] .heading-xl {
-  line-height: 1.45 !important;
-  padding-bottom: 0.08em;
-}
-html[dir='rtl'] .heading-lg {
-  line-height: 1.45 !important;
-  padding-bottom: 0.08em;
-}
-html[dir='rtl'] .heading-md,
 html[dir='rtl'] h1,
 html[dir='rtl'] h2,
 html[dir='rtl'] h3,
-html[dir='rtl'] h4 {
-  line-height: 1.5 !important;
+html[dir='rtl'] h4,
+html[dir='rtl'] .heading-xl,
+html[dir='rtl'] .heading-lg,
+html[dir='rtl'] .heading-md {
+  /* Generous line-height + vertical padding so Arabic ascenders/descenders
+     (letter dots and marks) are never clipped, and overflow is visible so no
+     ancestor can crop the glyphs. */
+  line-height: 1.8 !important;
+  padding-top: 0.12em;
+  padding-bottom: 0.35em;
+  overflow: visible !important;
 }
 
 /* Disable text gradient (background-clip:text) in RTL — it clips Arabic

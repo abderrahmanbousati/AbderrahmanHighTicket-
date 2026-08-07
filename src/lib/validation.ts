@@ -1,13 +1,7 @@
 import { z } from 'zod';
 
 // Currency-neutral revenue tiers (labels are shown per selected currency).
-export const revenueRanges = [
-  'pre_revenue',
-  'tier1',
-  'tier2',
-  'tier3',
-  'tier4',
-] as const;
+export const revenueRanges = ['tier1', 'tier2', 'tier3', 'tier4'] as const;
 
 // Currency-neutral monthly-investment tiers.
 export const investmentRanges = ['inv1', 'inv2', 'inv3', 'inv4'] as const;

@@ -840,7 +840,6 @@
         "USD": "Dollar (USD)"
       },
       "revenueOptions": {
-        "pre_revenue": "Pré-revenu",
         "MAD": {
           "tier1": "Moins de 100 000 MAD/mois",
           "tier2": "100 000 – 300 000 MAD/mois",

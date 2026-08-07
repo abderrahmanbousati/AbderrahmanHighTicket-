@@ -14,7 +14,7 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-line/60">
+    <section className="relative overflow-x-clip border-b border-line/60">
       <div
         className="pointer-events-none absolute inset-0 -z-10 bg-grid-faint bg-[size:48px_48px] opacity-60"
         aria-hidden="true"

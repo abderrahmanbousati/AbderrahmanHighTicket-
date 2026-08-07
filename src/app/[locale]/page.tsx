@@ -45,7 +45,7 @@ function Hero() {
   const tc = useTranslations('cta');
   const tag = useTranslations('meta')('tagline');
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-x-clip">
       <div
         className="pointer-events-none absolute inset-0 -z-10 bg-grid-faint bg-[size:48px_48px] opacity-60"
         aria-hidden="true"

@@ -114,7 +114,6 @@ export function ContactForm() {
         <Field label={t('revenue')} error={err('revenue')}>
           <select className="field-input" {...register('revenue')} defaultValue="">
             <option value="" disabled>{t('select')}</option>
-            <option value="pre_revenue">{t('revenueOptions.pre_revenue')}</option>
             {(['tier1', 'tier2', 'tier3', 'tier4'] as const).map((r) => (
               <option key={r} value={r}>{t(`revenueOptions.${currency}.${r}`)}</option>
             ))}
